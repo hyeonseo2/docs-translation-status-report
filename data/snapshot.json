@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-05T01:20:03Z",
+  "generated_at": "2026-01-05T12:29:11Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -128,6 +128,12 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/expert_parallelism"
+    },
+    {
+      "path": "docs/source/en/experts_interface.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/experts_interface"
     },
     {
       "path": "docs/source/en/fast_tokenizers.md",
