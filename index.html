@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HF Docs Translation Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <div>
+        <p class="eyebrow">Hugging Face Docs Translation</p>
+        <h1>Translation Snapshot Dashboard</h1>
+        <p class="subhead">
+          Static visualization for MCP snapshot data.
+        </p>
+      </div>
+      <div class="meta">
+        <div>
+          <span class="meta-label">Project</span>
+          <span id="projectName">-</span>
+        </div>
+        <div>
+          <span class="meta-label">Language</span>
+          <span id="languageName">-</span>
+        </div>
+        <div>
+          <span class="meta-label">Generated</span>
+          <span id="generatedAt">-</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="kpi-grid">
+        <div class="kpi-card">
+          <p>Total Docs</p>
+          <h2 id="kpiTotal">0</h2>
+        </div>
+        <div class="kpi-card kpi-translated">
+          <p>Translated</p>
+          <h2 id="kpiTranslated">0</h2>
+        </div>
+        <div class="kpi-card kpi-outdated">
+          <p>Outdated</p>
+          <h2 id="kpiOutdated">0</h2>
+        </div>
+        <div class="kpi-card kpi-missing">
+          <p>Missing</p>
+          <h2 id="kpiMissing">0</h2>
+        </div>
+      </section>
+
+      <section class="chart-grid">
+        <div class="chart-card">
+          <div class="chart-header">
+            <h2>현재 상태 분포</h2>
+            <p>지금 번역 상태가 어떻게 분포되어 있는가</p>
+          </div>
+          <div class="chart-body">
+            <canvas id="statusChart" height="240"></canvas>
+          </div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-header">
+            <h2>날짜별 업데이트 문서 수</h2>
+            <p>번역 작업 활동량을 보여주는 업데이트 추이</p>
+          </div>
+          <div class="chart-body">
+            <canvas id="activityChart" height="240"></canvas>
+          </div>
+        </div>
+      </section>
+
+      <section class="table-section">
+        <div class="section-header">
+          <div>
+            <h2>Document Status</h2>
+            <p>Filter to quickly choose translation targets.</p>
+          </div>
+          <div class="controls">
+            <div class="filters">
+              <button class="filter-btn active" data-filter="all">
+                All
+              </button>
+              <button class="filter-btn" data-filter="outdated">
+                Outdated
+              </button>
+              <button class="filter-btn" data-filter="missing">
+                Missing
+              </button>
+            </div>
+            <label class="sort-control">
+              <span>Sort missing/outdated</span>
+              <select id="sortSelect">
+                <option value="path-asc">Path (A → Z)</option>
+                <option value="path-desc">Path (Z → A)</option>
+                <option value="date-desc">Last commit (newest)</option>
+                <option value="date-asc">Last commit (oldest)</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Path</th>
+                <th>Status</th>
+                <th>Last Commit Date</th>
+                <th>Source</th>
+              </tr>
+            </thead>
+            <tbody id="docsTable"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Data refreshed via GitHub Actions snapshot. No live API calls in the
+        browser.
+      </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

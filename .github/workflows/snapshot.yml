@@ -1,0 +1,79 @@
+name: Update translation snapshot
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch snapshot from MCP
+        env:
+          MCP_URL: https://hyeonseo-hf-translation-docs-explorer-test.hf.space/gradio_api/mcp/
+        run: |
+          set -euo pipefail
+
+          response=$(curl -sSf --retry 3 --retry-delay 2 -N -X POST "$MCP_URL" \
+            -H 'Content-Type: application/json' \
+            -H 'Accept: application/json, text/event-stream' \
+            -d '{"jsonrpc":"2.0","id":"call-2","method":"tools/call","params":{"name":"hf_translation_docs_explorer_test_search_files","arguments":{"project":"transformers","lang":"ko","limit":10000,"include_status_report":true}}}')
+
+          PY_CODE=$'import ast, json, sys\n\nresponse = sys.stdin.read()\nif not response:\n    sys.exit(1)\n\n# Extract last SSE data line\nlines = [l for l in response.splitlines() if l.startswith(\"data: \")]\npayload = (lines[-1][6:] if lines else response).strip()\n\npayload_obj = json.loads(payload)\n\n# Unwrap MCP result\nif isinstance(payload_obj, dict) and \"result\" in payload_obj:\n    result = payload_obj[\"result\"]\n    if isinstance(result, dict) and result.get(\"content\"):\n        raw_text = result[\"content\"][0].get(\"text\", \"\")\n    else:\n        raw_text = result\nelse:\n    raw_text = payload_obj\n\n# Normalize (handle repr(dict), nested JSON strings)\ndef normalize(v):\n    if isinstance(v, (dict, list)):\n        return v\n    if not isinstance(v, str):\n        return v\n    t = v.strip()\n    if not t:\n        return v\n    for loader in (json.loads, ast.literal_eval):\n        try:\n            parsed = loader(t)\n        except Exception:\n            continue\n        return normalize(parsed)\n    return v\n\nnormalized = normalize(raw_text)\n\nif not isinstance(normalized, dict):\n    sys.exit(1)\n\nprint(json.dumps(normalized))\n'
+          snapshot=$(python -c "$PY_CODE" <<<"$response")
+
+          generated_at=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+
+          echo "$snapshot" | jq -e --arg generated_at "$generated_at" '
+            . as $root
+            | if ($root | type) != "object" then
+                error("Snapshot payload is not an object")
+              else
+                {
+                  generated_at: $generated_at,
+                  project: "transformers",
+                  language: "ko",
+                  files: (
+                    ($root.files // [])
+                    | map({
+                        path: (.path // .metadata.path),
+                        status: (.metadata.status // .status),
+                        last_commit_date: (
+                          .metadata.ko_base_commit
+                          | if . then (tostring | split(" ")[0]) else null end
+                        ),
+                        source_url: (
+                          "https://huggingface.co/docs/transformers/"
+                          + ((.path // .metadata.path)
+                            | sub("^docs/source/en/"; "")
+                            | sub("\\.md$"; ""))
+                        )
+                      })
+                    | map(select(.path and .status))
+                  )
+                }
+              end
+          ' > data/snapshot.json
+
+      - name: Commit snapshot
+        run: |
+          set -euo pipefail
+
+          if git diff --quiet; then
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/snapshot.json
+          git commit -m "chore: update translation snapshot"
+          git push
