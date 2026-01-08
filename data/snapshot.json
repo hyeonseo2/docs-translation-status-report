@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-07T02:00:50Z",
+  "generated_at": "2026-01-08T02:00:30Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -94,6 +94,24 @@
       "source_url": "https://huggingface.co/docs/transformers/community"
     },
     {
+      "path": "docs/source/en/community_integrations/sglang.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/community_integrations/sglang"
+    },
+    {
+      "path": "docs/source/en/community_integrations/transformers_as_backend.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/community_integrations/transformers_as_backend"
+    },
+    {
+      "path": "docs/source/en/community_integrations/vllm.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/community_integrations/vllm"
+    },
+    {
       "path": "docs/source/en/continuous_batching.md",
       "status": "missing",
       "last_commit_date": null,
@@ -116,12 +134,6 @@
       "status": "outdated",
       "last_commit_date": "2023-09-27",
       "source_url": "https://huggingface.co/docs/transformers/debugging"
-    },
-    {
-      "path": "docs/source/en/executorch.md",
-      "status": "outdated",
-      "last_commit_date": "2025-07-22",
-      "source_url": "https://huggingface.co/docs/transformers/executorch"
     },
     {
       "path": "docs/source/en/expert_parallelism.md",
@@ -2962,6 +2974,12 @@
       "source_url": "https://huggingface.co/docs/transformers/run_scripts"
     },
     {
+      "path": "docs/source/en/serialization.md",
+      "status": "outdated",
+      "last_commit_date": "2025-10-21",
+      "source_url": "https://huggingface.co/docs/transformers/serialization"
+    },
+    {
       "path": "docs/source/en/serving.md",
       "status": "outdated",
       "last_commit_date": "2025-05-01",
@@ -3146,12 +3164,6 @@
       "status": "outdated",
       "last_commit_date": "2025-10-09",
       "source_url": "https://huggingface.co/docs/transformers/trainer"
-    },
-    {
-      "path": "docs/source/en/transformers_as_backend.md",
-      "status": "missing",
-      "last_commit_date": null,
-      "source_url": "https://huggingface.co/docs/transformers/transformers_as_backend"
     },
     {
       "path": "docs/source/en/troubleshooting.md",
