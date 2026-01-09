@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-08T02:00:30Z",
+  "generated_at": "2026-01-09T02:01:49Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -370,6 +370,12 @@
       "source_url": "https://huggingface.co/docs/transformers/model_doc/align"
     },
     {
+      "path": "docs/source/en/model_doc/altclip.md",
+      "status": "outdated",
+      "last_commit_date": "2025-12-17",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/altclip"
+    },
+    {
       "path": "docs/source/en/model_doc/apertus.md",
       "status": "missing",
       "last_commit_date": null,
@@ -508,6 +514,18 @@
       "source_url": "https://huggingface.co/docs/transformers/model_doc/blenderbot"
     },
     {
+      "path": "docs/source/en/model_doc/blip-2.md",
+      "status": "outdated",
+      "last_commit_date": "2025-10-09",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/blip-2"
+    },
+    {
+      "path": "docs/source/en/model_doc/blip.md",
+      "status": "outdated",
+      "last_commit_date": "2025-10-09",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/blip"
+    },
+    {
       "path": "docs/source/en/model_doc/bloom.md",
       "status": "missing",
       "last_commit_date": null,
@@ -566,6 +584,18 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/model_doc/clap"
+    },
+    {
+      "path": "docs/source/en/model_doc/clip.md",
+      "status": "outdated",
+      "last_commit_date": "2025-11-28",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/clip"
+    },
+    {
+      "path": "docs/source/en/model_doc/clipseg.md",
+      "status": "outdated",
+      "last_commit_date": "2025-10-09",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/clipseg"
     },
     {
       "path": "docs/source/en/model_doc/clvp.md",
@@ -1426,6 +1456,12 @@
       "source_url": "https://huggingface.co/docs/transformers/model_doc/llama3"
     },
     {
+      "path": "docs/source/en/model_doc/llama4.md",
+      "status": "outdated",
+      "last_commit_date": "2025-10-16",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/llama4"
+    },
+    {
       "path": "docs/source/en/model_doc/llava.md",
       "status": "missing",
       "last_commit_date": null,
@@ -2188,6 +2224,12 @@
       "source_url": "https://huggingface.co/docs/transformers/model_doc/sam3_video"
     },
     {
+      "path": "docs/source/en/model_doc/sam_hq.md",
+      "status": "outdated",
+      "last_commit_date": "2025-10-16",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/sam_hq"
+    },
+    {
       "path": "docs/source/en/model_doc/seamless_m4t.md",
       "status": "missing",
       "last_commit_date": null,
@@ -2234,6 +2276,12 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/model_doc/shieldgemma2"
+    },
+    {
+      "path": "docs/source/en/model_doc/siglip.md",
+      "status": "outdated",
+      "last_commit_date": "2025-10-09",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/siglip"
     },
     {
       "path": "docs/source/en/model_doc/siglip2.md",
@@ -2594,6 +2642,12 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/model_doc/wavlm"
+    },
+    {
+      "path": "docs/source/en/model_doc/xclip.md",
+      "status": "outdated",
+      "last_commit_date": "2025-10-09",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/xclip"
     },
     {
       "path": "docs/source/en/model_doc/xcodec.md",
