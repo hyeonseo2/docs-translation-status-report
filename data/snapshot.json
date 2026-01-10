@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-09T02:01:49Z",
+  "generated_at": "2026-01-10T01:58:20Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -92,6 +92,12 @@
       "status": "outdated",
       "last_commit_date": "2024-02-16",
       "source_url": "https://huggingface.co/docs/transformers/community"
+    },
+    {
+      "path": "docs/source/en/community_integrations/llama_cpp.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/community_integrations/llama_cpp"
     },
     {
       "path": "docs/source/en/community_integrations/sglang.md",
@@ -1610,6 +1616,12 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/model_doc/minimax"
+    },
+    {
+      "path": "docs/source/en/model_doc/minimax_m2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/minimax_m2"
     },
     {
       "path": "docs/source/en/model_doc/ministral.md",
