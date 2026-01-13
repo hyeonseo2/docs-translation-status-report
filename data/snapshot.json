@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-12T02:05:56Z",
+  "generated_at": "2026-01-13T01:57:54Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -1516,6 +1516,12 @@
       "source_url": "https://huggingface.co/docs/transformers/model_doc/luke"
     },
     {
+      "path": "docs/source/en/model_doc/lw_detr.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/lw_detr"
+    },
+    {
       "path": "docs/source/en/model_doc/lxmert.md",
       "status": "missing",
       "last_commit_date": null,
@@ -2954,6 +2960,12 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/quantization/fp_quant"
+    },
+    {
+      "path": "docs/source/en/quantization/gptq.md",
+      "status": "outdated",
+      "last_commit_date": "2025-12-10",
+      "source_url": "https://huggingface.co/docs/transformers/quantization/gptq"
     },
     {
       "path": "docs/source/en/quantization/higgs.md",
