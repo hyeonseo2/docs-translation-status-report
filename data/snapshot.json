@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-13T01:57:54Z",
+  "generated_at": "2026-01-14T02:05:16Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -104,6 +104,12 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/community_integrations/sglang"
+    },
+    {
+      "path": "docs/source/en/community_integrations/tensorrt-llm.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/community_integrations/tensorrt-llm"
     },
     {
       "path": "docs/source/en/community_integrations/transformers_as_backend.md",
@@ -410,12 +416,6 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/model_doc/audioflamingo3"
-    },
-    {
-      "path": "docs/source/en/model_doc/auto.md",
-      "status": "outdated",
-      "last_commit_date": "2025-10-06",
-      "source_url": "https://huggingface.co/docs/transformers/model_doc/auto"
     },
     {
       "path": "docs/source/en/model_doc/autoformer.md",
@@ -1120,6 +1120,12 @@
       "source_url": "https://huggingface.co/docs/transformers/model_doc/glm4_moe"
     },
     {
+      "path": "docs/source/en/model_doc/glm4_moe_lite.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/glm4_moe_lite"
+    },
+    {
       "path": "docs/source/en/model_doc/glm4v.md",
       "status": "missing",
       "last_commit_date": null,
@@ -1130,6 +1136,12 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/model_doc/glm4v_moe"
+    },
+    {
+      "path": "docs/source/en/model_doc/glm_image.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/glm_image"
     },
     {
       "path": "docs/source/en/model_doc/glmasr.md",
