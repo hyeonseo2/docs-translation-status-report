@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-16T02:02:10Z",
+  "generated_at": "2026-01-17T01:56:40Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -326,12 +326,6 @@
       "status": "outdated",
       "last_commit_date": "2025-09-19",
       "source_url": "https://huggingface.co/docs/transformers/main_classes/output"
-    },
-    {
-      "path": "docs/source/en/main_classes/pipelines.md",
-      "status": "outdated",
-      "last_commit_date": "2025-08-22",
-      "source_url": "https://huggingface.co/docs/transformers/main_classes/pipelines"
     },
     {
       "path": "docs/source/en/main_classes/processors.md",
