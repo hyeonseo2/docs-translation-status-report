@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-20T02:02:58Z",
+  "generated_at": "2026-01-21T02:04:40Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -88,10 +88,22 @@
       "source_url": "https://huggingface.co/docs/transformers/community"
     },
     {
+      "path": "docs/source/en/community_integrations/axolotl.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/community_integrations/axolotl"
+    },
+    {
       "path": "docs/source/en/community_integrations/llama_cpp.md",
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/community_integrations/llama_cpp"
+    },
+    {
+      "path": "docs/source/en/community_integrations/nanotron.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/community_integrations/nanotron"
     },
     {
       "path": "docs/source/en/community_integrations/sglang.md",
@@ -106,10 +118,28 @@
       "source_url": "https://huggingface.co/docs/transformers/community_integrations/tensorrt-llm"
     },
     {
+      "path": "docs/source/en/community_integrations/torchtitan.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/community_integrations/torchtitan"
+    },
+    {
       "path": "docs/source/en/community_integrations/transformers_as_backend.md",
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/community_integrations/transformers_as_backend"
+    },
+    {
+      "path": "docs/source/en/community_integrations/trl.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/community_integrations/trl"
+    },
+    {
+      "path": "docs/source/en/community_integrations/unsloth.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/community_integrations/unsloth"
     },
     {
       "path": "docs/source/en/community_integrations/vllm.md",
@@ -248,6 +278,12 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/jan"
+    },
+    {
+      "path": "docs/source/en/kernel_doc/loading_kernels.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/kernel_doc/loading_kernels"
     },
     {
       "path": "docs/source/en/kernel_doc/overview.md",
@@ -3074,6 +3110,18 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/tasks/any_to_any"
+    },
+    {
+      "path": "docs/source/en/tasks/asr.md",
+      "status": "outdated",
+      "last_commit_date": "2025-09-22",
+      "source_url": "https://huggingface.co/docs/transformers/tasks/asr"
+    },
+    {
+      "path": "docs/source/en/tasks/audio_classification.md",
+      "status": "outdated",
+      "last_commit_date": "2025-10-23",
+      "source_url": "https://huggingface.co/docs/transformers/tasks/audio_classification"
     },
     {
       "path": "docs/source/en/tasks/document_question_answering.md",
