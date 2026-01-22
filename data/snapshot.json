@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-21T02:04:40Z",
+  "generated_at": "2026-01-22T02:05:40Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -2360,6 +2360,12 @@
       "status": "outdated",
       "last_commit_date": "2025-09-15",
       "source_url": "https://huggingface.co/docs/transformers/model_doc/smolvlm"
+    },
+    {
+      "path": "docs/source/en/model_doc/solar_open.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/solar_open"
     },
     {
       "path": "docs/source/en/model_doc/speech-encoder-decoder.md",
