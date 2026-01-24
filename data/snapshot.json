@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-23T02:02:50Z",
+  "generated_at": "2026-01-24T01:58:48Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -1508,12 +1508,6 @@
       "status": "outdated",
       "last_commit_date": "2025-08-22",
       "source_url": "https://huggingface.co/docs/transformers/model_doc/llama3"
-    },
-    {
-      "path": "docs/source/en/model_doc/llama4.md",
-      "status": "outdated",
-      "last_commit_date": "2025-10-16",
-      "source_url": "https://huggingface.co/docs/transformers/model_doc/llama4"
     },
     {
       "path": "docs/source/en/model_doc/llava.md",
