@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-28T02:04:37Z",
+  "generated_at": "2026-01-29T02:26:34Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -2798,6 +2798,12 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/model_doc/yoso"
+    },
+    {
+      "path": "docs/source/en/model_doc/youtu.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/youtu"
     },
     {
       "path": "docs/source/en/model_doc/zamba.md",
