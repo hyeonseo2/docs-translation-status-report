@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-29T02:26:34Z",
+  "generated_at": "2026-01-30T02:26:07Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -2084,6 +2084,12 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/model_doc/pop2piano"
+    },
+    {
+      "path": "docs/source/en/model_doc/pp_doclayout_v3.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/pp_doclayout_v3"
     },
     {
       "path": "docs/source/en/model_doc/prompt_depth_anything.md",
