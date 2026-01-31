@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-30T02:26:07Z",
+  "generated_at": "2026-01-31T02:22:04Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -160,12 +160,6 @@
       "source_url": "https://huggingface.co/docs/transformers/conversations"
     },
     {
-      "path": "docs/source/en/cursor.md",
-      "status": "missing",
-      "last_commit_date": null,
-      "source_url": "https://huggingface.co/docs/transformers/cursor"
-    },
-    {
       "path": "docs/source/en/custom_models.md",
       "status": "outdated",
       "last_commit_date": "2025-10-06",
@@ -278,12 +272,6 @@
       "status": "outdated",
       "last_commit_date": "2025-11-27",
       "source_url": "https://huggingface.co/docs/transformers/internal/tokenization_utils"
-    },
-    {
-      "path": "docs/source/en/jan.md",
-      "status": "missing",
-      "last_commit_date": null,
-      "source_url": "https://huggingface.co/docs/transformers/jan"
     },
     {
       "path": "docs/source/en/kernel_doc/loading_kernels.md",
@@ -2860,12 +2848,6 @@
       "source_url": "https://huggingface.co/docs/transformers/notebooks"
     },
     {
-      "path": "docs/source/en/open_webui.md",
-      "status": "missing",
-      "last_commit_date": null,
-      "source_url": "https://huggingface.co/docs/transformers/open_webui"
-    },
-    {
       "path": "docs/source/en/optimization_overview.md",
       "status": "missing",
       "last_commit_date": null,
@@ -3124,10 +3106,40 @@
       "source_url": "https://huggingface.co/docs/transformers/serialization"
     },
     {
-      "path": "docs/source/en/serving.md",
-      "status": "outdated",
-      "last_commit_date": "2025-05-01",
-      "source_url": "https://huggingface.co/docs/transformers/serving"
+      "path": "docs/source/en/serve-cli/cursor.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/serve-cli/cursor"
+    },
+    {
+      "path": "docs/source/en/serve-cli/jan.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/serve-cli/jan"
+    },
+    {
+      "path": "docs/source/en/serve-cli/openweb_ui.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/serve-cli/openweb_ui"
+    },
+    {
+      "path": "docs/source/en/serve-cli/serving.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/serve-cli/serving"
+    },
+    {
+      "path": "docs/source/en/serve-cli/serving_optims.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/serve-cli/serving_optims"
+    },
+    {
+      "path": "docs/source/en/serve-cli/tiny_agents.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/serve-cli/tiny_agents"
     },
     {
       "path": "docs/source/en/tasks/any_to_any.md",
@@ -3308,12 +3320,6 @@
       "status": "outdated",
       "last_commit_date": "2025-06-25",
       "source_url": "https://huggingface.co/docs/transformers/testing"
-    },
-    {
-      "path": "docs/source/en/tiny_agents.md",
-      "status": "outdated",
-      "last_commit_date": "2025-08-12",
-      "source_url": "https://huggingface.co/docs/transformers/tiny_agents"
     },
     {
       "path": "docs/source/en/tokenizer_summary.md",
