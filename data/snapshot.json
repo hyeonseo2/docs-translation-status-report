@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-03T02:32:33Z",
+  "generated_at": "2026-02-04T02:27:00Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -2906,6 +2906,12 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/perf_train_gaudi"
+    },
+    {
+      "path": "docs/source/en/perf_train_gpu_one.md",
+      "status": "outdated",
+      "last_commit_date": "2025-07-29",
+      "source_url": "https://huggingface.co/docs/transformers/perf_train_gpu_one"
     },
     {
       "path": "docs/source/en/perplexity.md",
