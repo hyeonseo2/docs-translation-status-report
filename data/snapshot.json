@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-05T02:28:40Z",
+  "generated_at": "2026-02-06T02:30:39Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -94,10 +94,28 @@
       "source_url": "https://huggingface.co/docs/transformers/community_integrations/axolotl"
     },
     {
+      "path": "docs/source/en/community_integrations/candle.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/community_integrations/candle"
+    },
+    {
+      "path": "docs/source/en/community_integrations/executorch.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/community_integrations/executorch"
+    },
+    {
       "path": "docs/source/en/community_integrations/llama_cpp.md",
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/community_integrations/llama_cpp"
+    },
+    {
+      "path": "docs/source/en/community_integrations/mlx.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/community_integrations/mlx"
     },
     {
       "path": "docs/source/en/community_integrations/nanotron.md",
@@ -236,6 +254,12 @@
       "status": "outdated",
       "last_commit_date": "2025-12-17",
       "source_url": "https://huggingface.co/docs/transformers/index"
+    },
+    {
+      "path": "docs/source/en/installation.md",
+      "status": "outdated",
+      "last_commit_date": "2025-11-27",
+      "source_url": "https://huggingface.co/docs/transformers/installation"
     },
     {
       "path": "docs/source/en/internal/file_utils.md",
@@ -2882,12 +2906,6 @@
       "status": "outdated",
       "last_commit_date": "2024-02-16",
       "source_url": "https://huggingface.co/docs/transformers/perf_hardware"
-    },
-    {
-      "path": "docs/source/en/perf_infer_gpu_multi.md",
-      "status": "outdated",
-      "last_commit_date": "2025-11-13",
-      "source_url": "https://huggingface.co/docs/transformers/perf_infer_gpu_multi"
     },
     {
       "path": "docs/source/en/perf_torch_compile.md",
