@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-06T02:30:39Z",
+  "generated_at": "2026-02-07T02:24:43Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -2612,6 +2612,12 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/model_doc/vaultgemma"
+    },
+    {
+      "path": "docs/source/en/model_doc/vibevoice_acoustic_tokenizer.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/vibevoice_acoustic_tokenizer"
     },
     {
       "path": "docs/source/en/model_doc/video_llama_3.md",
