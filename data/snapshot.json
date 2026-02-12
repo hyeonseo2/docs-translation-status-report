@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-11T02:42:17Z",
+  "generated_at": "2026-02-12T02:37:13Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -254,12 +254,6 @@
       "status": "outdated",
       "last_commit_date": "2025-12-17",
       "source_url": "https://huggingface.co/docs/transformers/index"
-    },
-    {
-      "path": "docs/source/en/installation.md",
-      "status": "outdated",
-      "last_commit_date": "2025-11-27",
-      "source_url": "https://huggingface.co/docs/transformers/installation"
     },
     {
       "path": "docs/source/en/internal/file_utils.md",
@@ -1010,6 +1004,12 @@
       "status": "outdated",
       "last_commit_date": "2025-08-22",
       "source_url": "https://huggingface.co/docs/transformers/model_doc/exaone4"
+    },
+    {
+      "path": "docs/source/en/model_doc/exaone_moe.md",
+      "status": "outdated",
+      "last_commit_date": "2026-02-03",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/exaone_moe"
     },
     {
       "path": "docs/source/en/model_doc/falcon.md",
@@ -3206,12 +3206,6 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/tasks/any_to_any"
-    },
-    {
-      "path": "docs/source/en/tasks/asr.md",
-      "status": "outdated",
-      "last_commit_date": "2025-09-22",
-      "source_url": "https://huggingface.co/docs/transformers/tasks/asr"
     },
     {
       "path": "docs/source/en/tasks/audio_classification.md",
