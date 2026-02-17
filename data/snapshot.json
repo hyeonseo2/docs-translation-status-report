@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-16T02:33:55Z",
+  "generated_at": "2026-02-17T02:31:28Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -182,12 +182,6 @@
       "status": "outdated",
       "last_commit_date": "2025-10-06",
       "source_url": "https://huggingface.co/docs/transformers/custom_models"
-    },
-    {
-      "path": "docs/source/en/debugging.md",
-      "status": "outdated",
-      "last_commit_date": "2023-09-27",
-      "source_url": "https://huggingface.co/docs/transformers/debugging"
     },
     {
       "path": "docs/source/en/expert_parallelism.md",
@@ -2740,6 +2734,12 @@
       "source_url": "https://huggingface.co/docs/transformers/model_doc/voxtral"
     },
     {
+      "path": "docs/source/en/model_doc/voxtral_realtime.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/voxtral_realtime"
+    },
+    {
       "path": "docs/source/en/model_doc/wav2vec2-bert.md",
       "status": "missing",
       "last_commit_date": null,
@@ -3122,6 +3122,12 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/quantization/selecting"
+    },
+    {
+      "path": "docs/source/en/quantization/sinq.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/quantization/sinq"
     },
     {
       "path": "docs/source/en/quantization/spqr.md",
