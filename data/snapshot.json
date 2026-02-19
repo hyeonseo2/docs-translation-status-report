@@ -1,6 +1,3433 @@
 {
-  "generated_at": "2026-02-18T02:35:31Z",
+  "generated_at": "2026-02-19T02:33:42Z",
   "project": "transformers",
   "language": "ko",
-  "files": []
+  "files": [
+    {
+      "path": "docs/source/en/accelerate.md",
+      "status": "outdated",
+      "last_commit_date": "2023-06-20",
+      "source_url": "https://huggingface.co/docs/transformers/accelerate"
+    },
+    {
+      "path": "docs/source/en/accelerator_selection.md",
+      "status": "outdated",
+      "last_commit_date": "2025-07-29",
+      "source_url": "https://huggingface.co/docs/transformers/accelerator_selection"
+    },
+    {
+      "path": "docs/source/en/add_new_pipeline.md",
+      "status": "outdated",
+      "last_commit_date": "2024-04-16",
+      "source_url": "https://huggingface.co/docs/transformers/add_new_pipeline"
+    },
+    {
+      "path": "docs/source/en/assisted_decoding.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/assisted_decoding"
+    },
+    {
+      "path": "docs/source/en/attention_interface.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/attention_interface"
+    },
+    {
+      "path": "docs/source/en/auto_docstring.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/auto_docstring"
+    },
+    {
+      "path": "docs/source/en/backbones.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/backbones"
+    },
+    {
+      "path": "docs/source/en/cache_explanation.md",
+      "status": "outdated",
+      "last_commit_date": "2025-10-08",
+      "source_url": "https://huggingface.co/docs/transformers/cache_explanation"
+    },
+    {
+      "path": "docs/source/en/chat_content_patterns.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/chat_content_patterns"
+    },
+    {
+      "path": "docs/source/en/chat_extras.md",
+      "status": "outdated",
+      "last_commit_date": "2025-10-16",
+      "source_url": "https://huggingface.co/docs/transformers/chat_extras"
+    },
+    {
+      "path": "docs/source/en/chat_templating.md",
+      "status": "outdated",
+      "last_commit_date": "2025-08-22",
+      "source_url": "https://huggingface.co/docs/transformers/chat_templating"
+    },
+    {
+      "path": "docs/source/en/chat_templating_multimodal.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/chat_templating_multimodal"
+    },
+    {
+      "path": "docs/source/en/chat_templating_writing.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/chat_templating_writing"
+    },
+    {
+      "path": "docs/source/en/community.md",
+      "status": "outdated",
+      "last_commit_date": "2024-02-16",
+      "source_url": "https://huggingface.co/docs/transformers/community"
+    },
+    {
+      "path": "docs/source/en/community_integrations/axolotl.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/community_integrations/axolotl"
+    },
+    {
+      "path": "docs/source/en/community_integrations/candle.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/community_integrations/candle"
+    },
+    {
+      "path": "docs/source/en/community_integrations/executorch.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/community_integrations/executorch"
+    },
+    {
+      "path": "docs/source/en/community_integrations/llama_cpp.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/community_integrations/llama_cpp"
+    },
+    {
+      "path": "docs/source/en/community_integrations/mlx.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/community_integrations/mlx"
+    },
+    {
+      "path": "docs/source/en/community_integrations/nanotron.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/community_integrations/nanotron"
+    },
+    {
+      "path": "docs/source/en/community_integrations/sglang.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/community_integrations/sglang"
+    },
+    {
+      "path": "docs/source/en/community_integrations/tensorrt-llm.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/community_integrations/tensorrt-llm"
+    },
+    {
+      "path": "docs/source/en/community_integrations/torchtitan.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/community_integrations/torchtitan"
+    },
+    {
+      "path": "docs/source/en/community_integrations/transformers_as_backend.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/community_integrations/transformers_as_backend"
+    },
+    {
+      "path": "docs/source/en/community_integrations/trl.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/community_integrations/trl"
+    },
+    {
+      "path": "docs/source/en/community_integrations/unsloth.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/community_integrations/unsloth"
+    },
+    {
+      "path": "docs/source/en/community_integrations/vllm.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/community_integrations/vllm"
+    },
+    {
+      "path": "docs/source/en/continuous_batching.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/continuous_batching"
+    },
+    {
+      "path": "docs/source/en/conversations.md",
+      "status": "outdated",
+      "last_commit_date": "2025-08-22",
+      "source_url": "https://huggingface.co/docs/transformers/conversations"
+    },
+    {
+      "path": "docs/source/en/custom_models.md",
+      "status": "outdated",
+      "last_commit_date": "2025-10-06",
+      "source_url": "https://huggingface.co/docs/transformers/custom_models"
+    },
+    {
+      "path": "docs/source/en/custom_tokenizers.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/custom_tokenizers"
+    },
+    {
+      "path": "docs/source/en/expert_parallelism.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/expert_parallelism"
+    },
+    {
+      "path": "docs/source/en/experts_interface.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/experts_interface"
+    },
+    {
+      "path": "docs/source/en/fast_tokenizers.md",
+      "status": "outdated",
+      "last_commit_date": "2023-06-20",
+      "source_url": "https://huggingface.co/docs/transformers/fast_tokenizers"
+    },
+    {
+      "path": "docs/source/en/feature_extractors.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/feature_extractors"
+    },
+    {
+      "path": "docs/source/en/fsdp.md",
+      "status": "outdated",
+      "last_commit_date": "2024-08-08",
+      "source_url": "https://huggingface.co/docs/transformers/fsdp"
+    },
+    {
+      "path": "docs/source/en/generation_features.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/generation_features"
+    },
+    {
+      "path": "docs/source/en/generation_strategies.md",
+      "status": "outdated",
+      "last_commit_date": "2025-09-01",
+      "source_url": "https://huggingface.co/docs/transformers/generation_strategies"
+    },
+    {
+      "path": "docs/source/en/gguf.md",
+      "status": "outdated",
+      "last_commit_date": "2025-04-14",
+      "source_url": "https://huggingface.co/docs/transformers/gguf"
+    },
+    {
+      "path": "docs/source/en/glossary.md",
+      "status": "outdated",
+      "last_commit_date": "2025-08-22",
+      "source_url": "https://huggingface.co/docs/transformers/glossary"
+    },
+    {
+      "path": "docs/source/en/how_to_hack_models.md",
+      "status": "outdated",
+      "last_commit_date": "2025-07-29",
+      "source_url": "https://huggingface.co/docs/transformers/how_to_hack_models"
+    },
+    {
+      "path": "docs/source/en/index.md",
+      "status": "outdated",
+      "last_commit_date": "2025-12-17",
+      "source_url": "https://huggingface.co/docs/transformers/index"
+    },
+    {
+      "path": "docs/source/en/internal/file_utils.md",
+      "status": "outdated",
+      "last_commit_date": "2025-09-10",
+      "source_url": "https://huggingface.co/docs/transformers/internal/file_utils"
+    },
+    {
+      "path": "docs/source/en/internal/import_utils.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/internal/import_utils"
+    },
+    {
+      "path": "docs/source/en/internal/model_debugging_utils.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/internal/model_debugging_utils"
+    },
+    {
+      "path": "docs/source/en/internal/modeling_utils.md",
+      "status": "outdated",
+      "last_commit_date": "2025-10-08",
+      "source_url": "https://huggingface.co/docs/transformers/internal/modeling_utils"
+    },
+    {
+      "path": "docs/source/en/internal/pipelines_utils.md",
+      "status": "outdated",
+      "last_commit_date": "2024-10-07",
+      "source_url": "https://huggingface.co/docs/transformers/internal/pipelines_utils"
+    },
+    {
+      "path": "docs/source/en/internal/rope_utils.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/internal/rope_utils"
+    },
+    {
+      "path": "docs/source/en/internal/tokenization_utils.md",
+      "status": "outdated",
+      "last_commit_date": "2025-11-27",
+      "source_url": "https://huggingface.co/docs/transformers/internal/tokenization_utils"
+    },
+    {
+      "path": "docs/source/en/kernel_doc/loading_kernels.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/kernel_doc/loading_kernels"
+    },
+    {
+      "path": "docs/source/en/kernel_doc/overview.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/kernel_doc/overview"
+    },
+    {
+      "path": "docs/source/en/kv_cache.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/kv_cache"
+    },
+    {
+      "path": "docs/source/en/llm_tutorial.md",
+      "status": "outdated",
+      "last_commit_date": "2023-11-20",
+      "source_url": "https://huggingface.co/docs/transformers/llm_tutorial"
+    },
+    {
+      "path": "docs/source/en/main_classes/backbones.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/main_classes/backbones"
+    },
+    {
+      "path": "docs/source/en/main_classes/data_collator.md",
+      "status": "outdated",
+      "last_commit_date": "2025-09-19",
+      "source_url": "https://huggingface.co/docs/transformers/main_classes/data_collator"
+    },
+    {
+      "path": "docs/source/en/main_classes/deepspeed.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/main_classes/deepspeed"
+    },
+    {
+      "path": "docs/source/en/main_classes/executorch.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/main_classes/executorch"
+    },
+    {
+      "path": "docs/source/en/main_classes/feature_extractor.md",
+      "status": "outdated",
+      "last_commit_date": "2024-10-08",
+      "source_url": "https://huggingface.co/docs/transformers/main_classes/feature_extractor"
+    },
+    {
+      "path": "docs/source/en/main_classes/image_processor.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/main_classes/image_processor"
+    },
+    {
+      "path": "docs/source/en/main_classes/kernels.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/main_classes/kernels"
+    },
+    {
+      "path": "docs/source/en/main_classes/logging.md",
+      "status": "outdated",
+      "last_commit_date": "2024-10-07",
+      "source_url": "https://huggingface.co/docs/transformers/main_classes/logging"
+    },
+    {
+      "path": "docs/source/en/main_classes/optimizer_schedules.md",
+      "status": "outdated",
+      "last_commit_date": "2025-09-19",
+      "source_url": "https://huggingface.co/docs/transformers/main_classes/optimizer_schedules"
+    },
+    {
+      "path": "docs/source/en/main_classes/output.md",
+      "status": "outdated",
+      "last_commit_date": "2025-09-19",
+      "source_url": "https://huggingface.co/docs/transformers/main_classes/output"
+    },
+    {
+      "path": "docs/source/en/main_classes/processors.md",
+      "status": "outdated",
+      "last_commit_date": "2025-08-13",
+      "source_url": "https://huggingface.co/docs/transformers/main_classes/processors"
+    },
+    {
+      "path": "docs/source/en/main_classes/quantization.md",
+      "status": "outdated",
+      "last_commit_date": "2024-12-20",
+      "source_url": "https://huggingface.co/docs/transformers/main_classes/quantization"
+    },
+    {
+      "path": "docs/source/en/main_classes/text_generation.md",
+      "status": "outdated",
+      "last_commit_date": "2025-09-19",
+      "source_url": "https://huggingface.co/docs/transformers/main_classes/text_generation"
+    },
+    {
+      "path": "docs/source/en/main_classes/video_processor.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/main_classes/video_processor"
+    },
+    {
+      "path": "docs/source/en/model_doc/afmoe.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/afmoe"
+    },
+    {
+      "path": "docs/source/en/model_doc/aimv2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/aimv2"
+    },
+    {
+      "path": "docs/source/en/model_doc/align.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/align"
+    },
+    {
+      "path": "docs/source/en/model_doc/altclip.md",
+      "status": "outdated",
+      "last_commit_date": "2025-12-17",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/altclip"
+    },
+    {
+      "path": "docs/source/en/model_doc/apertus.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/apertus"
+    },
+    {
+      "path": "docs/source/en/model_doc/arcee.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/arcee"
+    },
+    {
+      "path": "docs/source/en/model_doc/aria.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/aria"
+    },
+    {
+      "path": "docs/source/en/model_doc/audio-spectrogram-transformer.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/audio-spectrogram-transformer"
+    },
+    {
+      "path": "docs/source/en/model_doc/audioflamingo3.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/audioflamingo3"
+    },
+    {
+      "path": "docs/source/en/model_doc/autoformer.md",
+      "status": "outdated",
+      "last_commit_date": "2025-06-13",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/autoformer"
+    },
+    {
+      "path": "docs/source/en/model_doc/aya_vision.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/aya_vision"
+    },
+    {
+      "path": "docs/source/en/model_doc/bamba.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/bamba"
+    },
+    {
+      "path": "docs/source/en/model_doc/bark.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/bark"
+    },
+    {
+      "path": "docs/source/en/model_doc/bart.md",
+      "status": "outdated",
+      "last_commit_date": "2025-09-22",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/bart"
+    },
+    {
+      "path": "docs/source/en/model_doc/barthez.md",
+      "status": "outdated",
+      "last_commit_date": "2025-06-13",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/barthez"
+    },
+    {
+      "path": "docs/source/en/model_doc/bartpho.md",
+      "status": "outdated",
+      "last_commit_date": "2025-06-13",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/bartpho"
+    },
+    {
+      "path": "docs/source/en/model_doc/beit.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/beit"
+    },
+    {
+      "path": "docs/source/en/model_doc/bert-generation.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/bert-generation"
+    },
+    {
+      "path": "docs/source/en/model_doc/bert-japanese.md",
+      "status": "outdated",
+      "last_commit_date": "2024-10-22",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/bert-japanese"
+    },
+    {
+      "path": "docs/source/en/model_doc/bertweet.md",
+      "status": "outdated",
+      "last_commit_date": "2024-10-08",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/bertweet"
+    },
+    {
+      "path": "docs/source/en/model_doc/bigbird_pegasus.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/bigbird_pegasus"
+    },
+    {
+      "path": "docs/source/en/model_doc/biogpt.md",
+      "status": "outdated",
+      "last_commit_date": "2025-08-28",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/biogpt"
+    },
+    {
+      "path": "docs/source/en/model_doc/bit.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/bit"
+    },
+    {
+      "path": "docs/source/en/model_doc/bitnet.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/bitnet"
+    },
+    {
+      "path": "docs/source/en/model_doc/blenderbot-small.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/blenderbot-small"
+    },
+    {
+      "path": "docs/source/en/model_doc/blenderbot.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/blenderbot"
+    },
+    {
+      "path": "docs/source/en/model_doc/blip-2.md",
+      "status": "outdated",
+      "last_commit_date": "2025-10-09",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/blip-2"
+    },
+    {
+      "path": "docs/source/en/model_doc/blip.md",
+      "status": "outdated",
+      "last_commit_date": "2025-10-09",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/blip"
+    },
+    {
+      "path": "docs/source/en/model_doc/bloom.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/bloom"
+    },
+    {
+      "path": "docs/source/en/model_doc/blt.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/blt"
+    },
+    {
+      "path": "docs/source/en/model_doc/bridgetower.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/bridgetower"
+    },
+    {
+      "path": "docs/source/en/model_doc/bros.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/bros"
+    },
+    {
+      "path": "docs/source/en/model_doc/byt5.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/byt5"
+    },
+    {
+      "path": "docs/source/en/model_doc/camembert.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/camembert"
+    },
+    {
+      "path": "docs/source/en/model_doc/canine.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/canine"
+    },
+    {
+      "path": "docs/source/en/model_doc/chameleon.md",
+      "status": "outdated",
+      "last_commit_date": "2025-08-22",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/chameleon"
+    },
+    {
+      "path": "docs/source/en/model_doc/chinese_clip.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/chinese_clip"
+    },
+    {
+      "path": "docs/source/en/model_doc/clap.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/clap"
+    },
+    {
+      "path": "docs/source/en/model_doc/clip.md",
+      "status": "outdated",
+      "last_commit_date": "2025-11-28",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/clip"
+    },
+    {
+      "path": "docs/source/en/model_doc/clipseg.md",
+      "status": "outdated",
+      "last_commit_date": "2025-10-09",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/clipseg"
+    },
+    {
+      "path": "docs/source/en/model_doc/clvp.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/clvp"
+    },
+    {
+      "path": "docs/source/en/model_doc/cohere.md",
+      "status": "outdated",
+      "last_commit_date": "2025-11-27",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/cohere"
+    },
+    {
+      "path": "docs/source/en/model_doc/cohere2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/cohere2"
+    },
+    {
+      "path": "docs/source/en/model_doc/cohere2_vision.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/cohere2_vision"
+    },
+    {
+      "path": "docs/source/en/model_doc/colpali.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/colpali"
+    },
+    {
+      "path": "docs/source/en/model_doc/colqwen2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/colqwen2"
+    },
+    {
+      "path": "docs/source/en/model_doc/conditional_detr.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/conditional_detr"
+    },
+    {
+      "path": "docs/source/en/model_doc/convnext.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/convnext"
+    },
+    {
+      "path": "docs/source/en/model_doc/convnextv2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/convnextv2"
+    },
+    {
+      "path": "docs/source/en/model_doc/cpm.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/cpm"
+    },
+    {
+      "path": "docs/source/en/model_doc/cpmant.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/cpmant"
+    },
+    {
+      "path": "docs/source/en/model_doc/csm.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/csm"
+    },
+    {
+      "path": "docs/source/en/model_doc/ctrl.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/ctrl"
+    },
+    {
+      "path": "docs/source/en/model_doc/cvt.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/cvt"
+    },
+    {
+      "path": "docs/source/en/model_doc/cwm.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/cwm"
+    },
+    {
+      "path": "docs/source/en/model_doc/d_fine.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/d_fine"
+    },
+    {
+      "path": "docs/source/en/model_doc/dab-detr.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/dab-detr"
+    },
+    {
+      "path": "docs/source/en/model_doc/dac.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/dac"
+    },
+    {
+      "path": "docs/source/en/model_doc/data2vec.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/data2vec"
+    },
+    {
+      "path": "docs/source/en/model_doc/decision_transformer.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/decision_transformer"
+    },
+    {
+      "path": "docs/source/en/model_doc/deepseek_v2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/deepseek_v2"
+    },
+    {
+      "path": "docs/source/en/model_doc/deepseek_v3.md",
+      "status": "outdated",
+      "last_commit_date": "2025-09-02",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/deepseek_v3"
+    },
+    {
+      "path": "docs/source/en/model_doc/deepseek_vl.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/deepseek_vl"
+    },
+    {
+      "path": "docs/source/en/model_doc/deepseek_vl_hybrid.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/deepseek_vl_hybrid"
+    },
+    {
+      "path": "docs/source/en/model_doc/deformable_detr.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/deformable_detr"
+    },
+    {
+      "path": "docs/source/en/model_doc/deit.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/deit"
+    },
+    {
+      "path": "docs/source/en/model_doc/deplot.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/deplot"
+    },
+    {
+      "path": "docs/source/en/model_doc/depth_anything.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/depth_anything"
+    },
+    {
+      "path": "docs/source/en/model_doc/depth_anything_v2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/depth_anything_v2"
+    },
+    {
+      "path": "docs/source/en/model_doc/depth_pro.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/depth_pro"
+    },
+    {
+      "path": "docs/source/en/model_doc/detr.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/detr"
+    },
+    {
+      "path": "docs/source/en/model_doc/dia.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/dia"
+    },
+    {
+      "path": "docs/source/en/model_doc/dialogpt.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/dialogpt"
+    },
+    {
+      "path": "docs/source/en/model_doc/diffllama.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/diffllama"
+    },
+    {
+      "path": "docs/source/en/model_doc/dinat.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/dinat"
+    },
+    {
+      "path": "docs/source/en/model_doc/dinov2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/dinov2"
+    },
+    {
+      "path": "docs/source/en/model_doc/dinov2_with_registers.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/dinov2_with_registers"
+    },
+    {
+      "path": "docs/source/en/model_doc/dinov3.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/dinov3"
+    },
+    {
+      "path": "docs/source/en/model_doc/distilbert.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/distilbert"
+    },
+    {
+      "path": "docs/source/en/model_doc/dit.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/dit"
+    },
+    {
+      "path": "docs/source/en/model_doc/doge.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/doge"
+    },
+    {
+      "path": "docs/source/en/model_doc/donut.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/donut"
+    },
+    {
+      "path": "docs/source/en/model_doc/dots1.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/dots1"
+    },
+    {
+      "path": "docs/source/en/model_doc/dpr.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/dpr"
+    },
+    {
+      "path": "docs/source/en/model_doc/dpt.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/dpt"
+    },
+    {
+      "path": "docs/source/en/model_doc/edgetam.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/edgetam"
+    },
+    {
+      "path": "docs/source/en/model_doc/edgetam_video.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/edgetam_video"
+    },
+    {
+      "path": "docs/source/en/model_doc/efficientloftr.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/efficientloftr"
+    },
+    {
+      "path": "docs/source/en/model_doc/efficientnet.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/efficientnet"
+    },
+    {
+      "path": "docs/source/en/model_doc/emu3.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/emu3"
+    },
+    {
+      "path": "docs/source/en/model_doc/encodec.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/encodec"
+    },
+    {
+      "path": "docs/source/en/model_doc/eomt.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/eomt"
+    },
+    {
+      "path": "docs/source/en/model_doc/eomt_dinov3.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/eomt_dinov3"
+    },
+    {
+      "path": "docs/source/en/model_doc/ernie.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/ernie"
+    },
+    {
+      "path": "docs/source/en/model_doc/ernie4_5.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/ernie4_5"
+    },
+    {
+      "path": "docs/source/en/model_doc/ernie4_5_moe.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/ernie4_5_moe"
+    },
+    {
+      "path": "docs/source/en/model_doc/ernie4_5_vl_moe.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/ernie4_5_vl_moe"
+    },
+    {
+      "path": "docs/source/en/model_doc/esm.md",
+      "status": "outdated",
+      "last_commit_date": "2025-09-22",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/esm"
+    },
+    {
+      "path": "docs/source/en/model_doc/evolla.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/evolla"
+    },
+    {
+      "path": "docs/source/en/model_doc/exaone4.md",
+      "status": "outdated",
+      "last_commit_date": "2025-08-22",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/exaone4"
+    },
+    {
+      "path": "docs/source/en/model_doc/exaone_moe.md",
+      "status": "outdated",
+      "last_commit_date": "2026-02-03",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/exaone_moe"
+    },
+    {
+      "path": "docs/source/en/model_doc/falcon.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/falcon"
+    },
+    {
+      "path": "docs/source/en/model_doc/falcon3.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/falcon3"
+    },
+    {
+      "path": "docs/source/en/model_doc/falcon_h1.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/falcon_h1"
+    },
+    {
+      "path": "docs/source/en/model_doc/falcon_mamba.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/falcon_mamba"
+    },
+    {
+      "path": "docs/source/en/model_doc/fast_vlm.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/fast_vlm"
+    },
+    {
+      "path": "docs/source/en/model_doc/fastspeech2_conformer.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/fastspeech2_conformer"
+    },
+    {
+      "path": "docs/source/en/model_doc/flan-t5.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/flan-t5"
+    },
+    {
+      "path": "docs/source/en/model_doc/flan-ul2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/flan-ul2"
+    },
+    {
+      "path": "docs/source/en/model_doc/flaubert.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/flaubert"
+    },
+    {
+      "path": "docs/source/en/model_doc/flava.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/flava"
+    },
+    {
+      "path": "docs/source/en/model_doc/flex_olmo.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/flex_olmo"
+    },
+    {
+      "path": "docs/source/en/model_doc/florence2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/florence2"
+    },
+    {
+      "path": "docs/source/en/model_doc/fnet.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/fnet"
+    },
+    {
+      "path": "docs/source/en/model_doc/focalnet.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/focalnet"
+    },
+    {
+      "path": "docs/source/en/model_doc/fsmt.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/fsmt"
+    },
+    {
+      "path": "docs/source/en/model_doc/funnel.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/funnel"
+    },
+    {
+      "path": "docs/source/en/model_doc/fuyu.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/fuyu"
+    },
+    {
+      "path": "docs/source/en/model_doc/gemma.md",
+      "status": "outdated",
+      "last_commit_date": "2025-09-19",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/gemma"
+    },
+    {
+      "path": "docs/source/en/model_doc/gemma2.md",
+      "status": "outdated",
+      "last_commit_date": "2025-08-22",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/gemma2"
+    },
+    {
+      "path": "docs/source/en/model_doc/gemma3.md",
+      "status": "outdated",
+      "last_commit_date": "2025-08-22",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/gemma3"
+    },
+    {
+      "path": "docs/source/en/model_doc/gemma3n.md",
+      "status": "outdated",
+      "last_commit_date": "2025-10-17",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/gemma3n"
+    },
+    {
+      "path": "docs/source/en/model_doc/git.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/git"
+    },
+    {
+      "path": "docs/source/en/model_doc/glm.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/glm"
+    },
+    {
+      "path": "docs/source/en/model_doc/glm4.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/glm4"
+    },
+    {
+      "path": "docs/source/en/model_doc/glm46v.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/glm46v"
+    },
+    {
+      "path": "docs/source/en/model_doc/glm4_moe.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/glm4_moe"
+    },
+    {
+      "path": "docs/source/en/model_doc/glm4_moe_lite.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/glm4_moe_lite"
+    },
+    {
+      "path": "docs/source/en/model_doc/glm4v.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/glm4v"
+    },
+    {
+      "path": "docs/source/en/model_doc/glm4v_moe.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/glm4v_moe"
+    },
+    {
+      "path": "docs/source/en/model_doc/glm_image.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/glm_image"
+    },
+    {
+      "path": "docs/source/en/model_doc/glm_moe_dsa.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/glm_moe_dsa"
+    },
+    {
+      "path": "docs/source/en/model_doc/glm_ocr.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/glm_ocr"
+    },
+    {
+      "path": "docs/source/en/model_doc/glmasr.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/glmasr"
+    },
+    {
+      "path": "docs/source/en/model_doc/glpn.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/glpn"
+    },
+    {
+      "path": "docs/source/en/model_doc/got_ocr2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/got_ocr2"
+    },
+    {
+      "path": "docs/source/en/model_doc/gpt-sw3.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/gpt-sw3"
+    },
+    {
+      "path": "docs/source/en/model_doc/gpt2.md",
+      "status": "outdated",
+      "last_commit_date": "2025-09-22",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/gpt2"
+    },
+    {
+      "path": "docs/source/en/model_doc/gpt_bigcode.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/gpt_bigcode"
+    },
+    {
+      "path": "docs/source/en/model_doc/gpt_neo.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/gpt_neo"
+    },
+    {
+      "path": "docs/source/en/model_doc/gpt_neox.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/gpt_neox"
+    },
+    {
+      "path": "docs/source/en/model_doc/gpt_neox_japanese.md",
+      "status": "outdated",
+      "last_commit_date": "2024-10-08",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/gpt_neox_japanese"
+    },
+    {
+      "path": "docs/source/en/model_doc/gpt_oss.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/gpt_oss"
+    },
+    {
+      "path": "docs/source/en/model_doc/gptj.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/gptj"
+    },
+    {
+      "path": "docs/source/en/model_doc/granite.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/granite"
+    },
+    {
+      "path": "docs/source/en/model_doc/granite_speech.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/granite_speech"
+    },
+    {
+      "path": "docs/source/en/model_doc/granitemoe.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/granitemoe"
+    },
+    {
+      "path": "docs/source/en/model_doc/granitemoehybrid.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/granitemoehybrid"
+    },
+    {
+      "path": "docs/source/en/model_doc/granitemoeshared.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/granitemoeshared"
+    },
+    {
+      "path": "docs/source/en/model_doc/granitevision.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/granitevision"
+    },
+    {
+      "path": "docs/source/en/model_doc/grounding-dino.md",
+      "status": "outdated",
+      "last_commit_date": "2025-08-13",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/grounding-dino"
+    },
+    {
+      "path": "docs/source/en/model_doc/groupvit.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/groupvit"
+    },
+    {
+      "path": "docs/source/en/model_doc/helium.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/helium"
+    },
+    {
+      "path": "docs/source/en/model_doc/herbert.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/herbert"
+    },
+    {
+      "path": "docs/source/en/model_doc/hgnet_v2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/hgnet_v2"
+    },
+    {
+      "path": "docs/source/en/model_doc/hiera.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/hiera"
+    },
+    {
+      "path": "docs/source/en/model_doc/hubert.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/hubert"
+    },
+    {
+      "path": "docs/source/en/model_doc/hunyuan_v1_dense.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/hunyuan_v1_dense"
+    },
+    {
+      "path": "docs/source/en/model_doc/hunyuan_v1_moe.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/hunyuan_v1_moe"
+    },
+    {
+      "path": "docs/source/en/model_doc/ibert.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/ibert"
+    },
+    {
+      "path": "docs/source/en/model_doc/idefics.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/idefics"
+    },
+    {
+      "path": "docs/source/en/model_doc/idefics2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/idefics2"
+    },
+    {
+      "path": "docs/source/en/model_doc/idefics3.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/idefics3"
+    },
+    {
+      "path": "docs/source/en/model_doc/ijepa.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/ijepa"
+    },
+    {
+      "path": "docs/source/en/model_doc/imagegpt.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/imagegpt"
+    },
+    {
+      "path": "docs/source/en/model_doc/informer.md",
+      "status": "outdated",
+      "last_commit_date": "2025-06-13",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/informer"
+    },
+    {
+      "path": "docs/source/en/model_doc/instructblip.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/instructblip"
+    },
+    {
+      "path": "docs/source/en/model_doc/instructblipvideo.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/instructblipvideo"
+    },
+    {
+      "path": "docs/source/en/model_doc/internvl.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/internvl"
+    },
+    {
+      "path": "docs/source/en/model_doc/jais2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/jais2"
+    },
+    {
+      "path": "docs/source/en/model_doc/jamba.md",
+      "status": "outdated",
+      "last_commit_date": "2025-08-22",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/jamba"
+    },
+    {
+      "path": "docs/source/en/model_doc/janus.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/janus"
+    },
+    {
+      "path": "docs/source/en/model_doc/jetmoe.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/jetmoe"
+    },
+    {
+      "path": "docs/source/en/model_doc/kosmos-2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/kosmos-2"
+    },
+    {
+      "path": "docs/source/en/model_doc/kosmos2_5.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/kosmos2_5"
+    },
+    {
+      "path": "docs/source/en/model_doc/kyutai_speech_to_text.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/kyutai_speech_to_text"
+    },
+    {
+      "path": "docs/source/en/model_doc/lasr.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/lasr"
+    },
+    {
+      "path": "docs/source/en/model_doc/layoutlm.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/layoutlm"
+    },
+    {
+      "path": "docs/source/en/model_doc/layoutlmv2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/layoutlmv2"
+    },
+    {
+      "path": "docs/source/en/model_doc/layoutlmv3.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/layoutlmv3"
+    },
+    {
+      "path": "docs/source/en/model_doc/layoutxlm.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/layoutxlm"
+    },
+    {
+      "path": "docs/source/en/model_doc/led.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/led"
+    },
+    {
+      "path": "docs/source/en/model_doc/levit.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/levit"
+    },
+    {
+      "path": "docs/source/en/model_doc/lfm2_moe.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/lfm2_moe"
+    },
+    {
+      "path": "docs/source/en/model_doc/lfm2_vl.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/lfm2_vl"
+    },
+    {
+      "path": "docs/source/en/model_doc/lightglue.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/lightglue"
+    },
+    {
+      "path": "docs/source/en/model_doc/lighton_ocr.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/lighton_ocr"
+    },
+    {
+      "path": "docs/source/en/model_doc/lilt.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/lilt"
+    },
+    {
+      "path": "docs/source/en/model_doc/llama3.md",
+      "status": "outdated",
+      "last_commit_date": "2025-08-22",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/llama3"
+    },
+    {
+      "path": "docs/source/en/model_doc/llava.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/llava"
+    },
+    {
+      "path": "docs/source/en/model_doc/llava_next.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/llava_next"
+    },
+    {
+      "path": "docs/source/en/model_doc/llava_next_video.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/llava_next_video"
+    },
+    {
+      "path": "docs/source/en/model_doc/llava_onevision.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/llava_onevision"
+    },
+    {
+      "path": "docs/source/en/model_doc/longcat_flash.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/longcat_flash"
+    },
+    {
+      "path": "docs/source/en/model_doc/longformer.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/longformer"
+    },
+    {
+      "path": "docs/source/en/model_doc/longt5.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/longt5"
+    },
+    {
+      "path": "docs/source/en/model_doc/luke.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/luke"
+    },
+    {
+      "path": "docs/source/en/model_doc/lw_detr.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/lw_detr"
+    },
+    {
+      "path": "docs/source/en/model_doc/lxmert.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/lxmert"
+    },
+    {
+      "path": "docs/source/en/model_doc/m2m_100.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/m2m_100"
+    },
+    {
+      "path": "docs/source/en/model_doc/madlad-400.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/madlad-400"
+    },
+    {
+      "path": "docs/source/en/model_doc/mamba.md",
+      "status": "outdated",
+      "last_commit_date": "2025-06-13",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/mamba"
+    },
+    {
+      "path": "docs/source/en/model_doc/mamba2.md",
+      "status": "outdated",
+      "last_commit_date": "2025-06-13",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/mamba2"
+    },
+    {
+      "path": "docs/source/en/model_doc/marian.md",
+      "status": "outdated",
+      "last_commit_date": "2025-09-22",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/marian"
+    },
+    {
+      "path": "docs/source/en/model_doc/markuplm.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/markuplm"
+    },
+    {
+      "path": "docs/source/en/model_doc/mask2former.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/mask2former"
+    },
+    {
+      "path": "docs/source/en/model_doc/maskformer.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/maskformer"
+    },
+    {
+      "path": "docs/source/en/model_doc/matcha.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/matcha"
+    },
+    {
+      "path": "docs/source/en/model_doc/mbart.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/mbart"
+    },
+    {
+      "path": "docs/source/en/model_doc/megatron-bert.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/megatron-bert"
+    },
+    {
+      "path": "docs/source/en/model_doc/megatron_gpt2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/megatron_gpt2"
+    },
+    {
+      "path": "docs/source/en/model_doc/metaclip_2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/metaclip_2"
+    },
+    {
+      "path": "docs/source/en/model_doc/mgp-str.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/mgp-str"
+    },
+    {
+      "path": "docs/source/en/model_doc/mimi.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/mimi"
+    },
+    {
+      "path": "docs/source/en/model_doc/minimax.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/minimax"
+    },
+    {
+      "path": "docs/source/en/model_doc/minimax_m2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/minimax_m2"
+    },
+    {
+      "path": "docs/source/en/model_doc/ministral.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/ministral"
+    },
+    {
+      "path": "docs/source/en/model_doc/ministral3.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/ministral3"
+    },
+    {
+      "path": "docs/source/en/model_doc/mistral.md",
+      "status": "outdated",
+      "last_commit_date": "2025-09-19",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/mistral"
+    },
+    {
+      "path": "docs/source/en/model_doc/mistral3.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/mistral3"
+    },
+    {
+      "path": "docs/source/en/model_doc/mixtral.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/mixtral"
+    },
+    {
+      "path": "docs/source/en/model_doc/mlcd.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/mlcd"
+    },
+    {
+      "path": "docs/source/en/model_doc/mllama.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/mllama"
+    },
+    {
+      "path": "docs/source/en/model_doc/mluke.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/mluke"
+    },
+    {
+      "path": "docs/source/en/model_doc/mm-grounding-dino.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/mm-grounding-dino"
+    },
+    {
+      "path": "docs/source/en/model_doc/mms.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/mms"
+    },
+    {
+      "path": "docs/source/en/model_doc/mobilebert.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/mobilebert"
+    },
+    {
+      "path": "docs/source/en/model_doc/mobilenet_v1.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/mobilenet_v1"
+    },
+    {
+      "path": "docs/source/en/model_doc/mobilenet_v2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/mobilenet_v2"
+    },
+    {
+      "path": "docs/source/en/model_doc/mobilevit.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/mobilevit"
+    },
+    {
+      "path": "docs/source/en/model_doc/mobilevitv2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/mobilevitv2"
+    },
+    {
+      "path": "docs/source/en/model_doc/modernbert-decoder.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/modernbert-decoder"
+    },
+    {
+      "path": "docs/source/en/model_doc/modernbert.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/modernbert"
+    },
+    {
+      "path": "docs/source/en/model_doc/moonshine.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/moonshine"
+    },
+    {
+      "path": "docs/source/en/model_doc/moonshine_streaming.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/moonshine_streaming"
+    },
+    {
+      "path": "docs/source/en/model_doc/moshi.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/moshi"
+    },
+    {
+      "path": "docs/source/en/model_doc/mpnet.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/mpnet"
+    },
+    {
+      "path": "docs/source/en/model_doc/mpt.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/mpt"
+    },
+    {
+      "path": "docs/source/en/model_doc/mra.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/mra"
+    },
+    {
+      "path": "docs/source/en/model_doc/mt5.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/mt5"
+    },
+    {
+      "path": "docs/source/en/model_doc/musicgen.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/musicgen"
+    },
+    {
+      "path": "docs/source/en/model_doc/musicgen_melody.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/musicgen_melody"
+    },
+    {
+      "path": "docs/source/en/model_doc/mvp.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/mvp"
+    },
+    {
+      "path": "docs/source/en/model_doc/myt5.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/myt5"
+    },
+    {
+      "path": "docs/source/en/model_doc/nanochat.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/nanochat"
+    },
+    {
+      "path": "docs/source/en/model_doc/nemotron.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/nemotron"
+    },
+    {
+      "path": "docs/source/en/model_doc/nllb-moe.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/nllb-moe"
+    },
+    {
+      "path": "docs/source/en/model_doc/nllb.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/nllb"
+    },
+    {
+      "path": "docs/source/en/model_doc/nougat.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/nougat"
+    },
+    {
+      "path": "docs/source/en/model_doc/nystromformer.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/nystromformer"
+    },
+    {
+      "path": "docs/source/en/model_doc/olmo.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/olmo"
+    },
+    {
+      "path": "docs/source/en/model_doc/olmo2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/olmo2"
+    },
+    {
+      "path": "docs/source/en/model_doc/olmo3.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/olmo3"
+    },
+    {
+      "path": "docs/source/en/model_doc/olmoe.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/olmoe"
+    },
+    {
+      "path": "docs/source/en/model_doc/omdet-turbo.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/omdet-turbo"
+    },
+    {
+      "path": "docs/source/en/model_doc/oneformer.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/oneformer"
+    },
+    {
+      "path": "docs/source/en/model_doc/openai-gpt.md",
+      "status": "outdated",
+      "last_commit_date": "2025-09-22",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/openai-gpt"
+    },
+    {
+      "path": "docs/source/en/model_doc/opt.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/opt"
+    },
+    {
+      "path": "docs/source/en/model_doc/ovis2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/ovis2"
+    },
+    {
+      "path": "docs/source/en/model_doc/owlv2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/owlv2"
+    },
+    {
+      "path": "docs/source/en/model_doc/owlvit.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/owlvit"
+    },
+    {
+      "path": "docs/source/en/model_doc/paddleocr_vl.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/paddleocr_vl"
+    },
+    {
+      "path": "docs/source/en/model_doc/paligemma.md",
+      "status": "outdated",
+      "last_commit_date": "2024-10-08",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/paligemma"
+    },
+    {
+      "path": "docs/source/en/model_doc/parakeet.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/parakeet"
+    },
+    {
+      "path": "docs/source/en/model_doc/patchtsmixer.md",
+      "status": "outdated",
+      "last_commit_date": "2025-07-31",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/patchtsmixer"
+    },
+    {
+      "path": "docs/source/en/model_doc/patchtst.md",
+      "status": "outdated",
+      "last_commit_date": "2025-06-13",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/patchtst"
+    },
+    {
+      "path": "docs/source/en/model_doc/pe_audio.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/pe_audio"
+    },
+    {
+      "path": "docs/source/en/model_doc/pe_audio_video.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/pe_audio_video"
+    },
+    {
+      "path": "docs/source/en/model_doc/pe_video.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/pe_video"
+    },
+    {
+      "path": "docs/source/en/model_doc/pegasus.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/pegasus"
+    },
+    {
+      "path": "docs/source/en/model_doc/pegasus_x.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/pegasus_x"
+    },
+    {
+      "path": "docs/source/en/model_doc/perceiver.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/perceiver"
+    },
+    {
+      "path": "docs/source/en/model_doc/perception_lm.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/perception_lm"
+    },
+    {
+      "path": "docs/source/en/model_doc/persimmon.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/persimmon"
+    },
+    {
+      "path": "docs/source/en/model_doc/phi.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/phi"
+    },
+    {
+      "path": "docs/source/en/model_doc/phi3.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/phi3"
+    },
+    {
+      "path": "docs/source/en/model_doc/phi4_multimodal.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/phi4_multimodal"
+    },
+    {
+      "path": "docs/source/en/model_doc/phimoe.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/phimoe"
+    },
+    {
+      "path": "docs/source/en/model_doc/phobert.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/phobert"
+    },
+    {
+      "path": "docs/source/en/model_doc/pix2struct.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/pix2struct"
+    },
+    {
+      "path": "docs/source/en/model_doc/pixio.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/pixio"
+    },
+    {
+      "path": "docs/source/en/model_doc/pixtral.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/pixtral"
+    },
+    {
+      "path": "docs/source/en/model_doc/plbart.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/plbart"
+    },
+    {
+      "path": "docs/source/en/model_doc/poolformer.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/poolformer"
+    },
+    {
+      "path": "docs/source/en/model_doc/pop2piano.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/pop2piano"
+    },
+    {
+      "path": "docs/source/en/model_doc/pp_doclayout_v3.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/pp_doclayout_v3"
+    },
+    {
+      "path": "docs/source/en/model_doc/prompt_depth_anything.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/prompt_depth_anything"
+    },
+    {
+      "path": "docs/source/en/model_doc/prophetnet.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/prophetnet"
+    },
+    {
+      "path": "docs/source/en/model_doc/pvt.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/pvt"
+    },
+    {
+      "path": "docs/source/en/model_doc/pvt_v2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/pvt_v2"
+    },
+    {
+      "path": "docs/source/en/model_doc/qwen2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/qwen2"
+    },
+    {
+      "path": "docs/source/en/model_doc/qwen2_5_omni.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/qwen2_5_omni"
+    },
+    {
+      "path": "docs/source/en/model_doc/qwen2_5_vl.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/qwen2_5_vl"
+    },
+    {
+      "path": "docs/source/en/model_doc/qwen2_audio.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/qwen2_audio"
+    },
+    {
+      "path": "docs/source/en/model_doc/qwen2_moe.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/qwen2_moe"
+    },
+    {
+      "path": "docs/source/en/model_doc/qwen2_vl.md",
+      "status": "outdated",
+      "last_commit_date": "2025-09-10",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/qwen2_vl"
+    },
+    {
+      "path": "docs/source/en/model_doc/qwen3.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/qwen3"
+    },
+    {
+      "path": "docs/source/en/model_doc/qwen3_5.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/qwen3_5"
+    },
+    {
+      "path": "docs/source/en/model_doc/qwen3_5_moe.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/qwen3_5_moe"
+    },
+    {
+      "path": "docs/source/en/model_doc/qwen3_moe.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/qwen3_moe"
+    },
+    {
+      "path": "docs/source/en/model_doc/qwen3_next.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/qwen3_next"
+    },
+    {
+      "path": "docs/source/en/model_doc/qwen3_omni_moe.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/qwen3_omni_moe"
+    },
+    {
+      "path": "docs/source/en/model_doc/qwen3_vl.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/qwen3_vl"
+    },
+    {
+      "path": "docs/source/en/model_doc/qwen3_vl_moe.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/qwen3_vl_moe"
+    },
+    {
+      "path": "docs/source/en/model_doc/recurrent_gemma.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/recurrent_gemma"
+    },
+    {
+      "path": "docs/source/en/model_doc/reformer.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/reformer"
+    },
+    {
+      "path": "docs/source/en/model_doc/regnet.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/regnet"
+    },
+    {
+      "path": "docs/source/en/model_doc/rembert.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/rembert"
+    },
+    {
+      "path": "docs/source/en/model_doc/resnet.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/resnet"
+    },
+    {
+      "path": "docs/source/en/model_doc/roberta-prelayernorm.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/roberta-prelayernorm"
+    },
+    {
+      "path": "docs/source/en/model_doc/roc_bert.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/roc_bert"
+    },
+    {
+      "path": "docs/source/en/model_doc/roformer.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/roformer"
+    },
+    {
+      "path": "docs/source/en/model_doc/rt_detr.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/rt_detr"
+    },
+    {
+      "path": "docs/source/en/model_doc/rt_detr_v2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/rt_detr_v2"
+    },
+    {
+      "path": "docs/source/en/model_doc/rwkv.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/rwkv"
+    },
+    {
+      "path": "docs/source/en/model_doc/sam.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/sam"
+    },
+    {
+      "path": "docs/source/en/model_doc/sam2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/sam2"
+    },
+    {
+      "path": "docs/source/en/model_doc/sam2_video.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/sam2_video"
+    },
+    {
+      "path": "docs/source/en/model_doc/sam3.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/sam3"
+    },
+    {
+      "path": "docs/source/en/model_doc/sam3_tracker.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/sam3_tracker"
+    },
+    {
+      "path": "docs/source/en/model_doc/sam3_tracker_video.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/sam3_tracker_video"
+    },
+    {
+      "path": "docs/source/en/model_doc/sam3_video.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/sam3_video"
+    },
+    {
+      "path": "docs/source/en/model_doc/sam_hq.md",
+      "status": "outdated",
+      "last_commit_date": "2025-10-16",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/sam_hq"
+    },
+    {
+      "path": "docs/source/en/model_doc/seamless_m4t.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/seamless_m4t"
+    },
+    {
+      "path": "docs/source/en/model_doc/seamless_m4t_v2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/seamless_m4t_v2"
+    },
+    {
+      "path": "docs/source/en/model_doc/seed_oss.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/seed_oss"
+    },
+    {
+      "path": "docs/source/en/model_doc/segformer.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/segformer"
+    },
+    {
+      "path": "docs/source/en/model_doc/seggpt.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/seggpt"
+    },
+    {
+      "path": "docs/source/en/model_doc/sew-d.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/sew-d"
+    },
+    {
+      "path": "docs/source/en/model_doc/sew.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/sew"
+    },
+    {
+      "path": "docs/source/en/model_doc/shieldgemma2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/shieldgemma2"
+    },
+    {
+      "path": "docs/source/en/model_doc/siglip.md",
+      "status": "outdated",
+      "last_commit_date": "2025-10-09",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/siglip"
+    },
+    {
+      "path": "docs/source/en/model_doc/siglip2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/siglip2"
+    },
+    {
+      "path": "docs/source/en/model_doc/smollm3.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/smollm3"
+    },
+    {
+      "path": "docs/source/en/model_doc/smolvlm.md",
+      "status": "outdated",
+      "last_commit_date": "2025-09-15",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/smolvlm"
+    },
+    {
+      "path": "docs/source/en/model_doc/solar_open.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/solar_open"
+    },
+    {
+      "path": "docs/source/en/model_doc/speech-encoder-decoder.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/speech-encoder-decoder"
+    },
+    {
+      "path": "docs/source/en/model_doc/speech_to_text.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/speech_to_text"
+    },
+    {
+      "path": "docs/source/en/model_doc/speecht5.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/speecht5"
+    },
+    {
+      "path": "docs/source/en/model_doc/splinter.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/splinter"
+    },
+    {
+      "path": "docs/source/en/model_doc/squeezebert.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/squeezebert"
+    },
+    {
+      "path": "docs/source/en/model_doc/stablelm.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/stablelm"
+    },
+    {
+      "path": "docs/source/en/model_doc/starcoder2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/starcoder2"
+    },
+    {
+      "path": "docs/source/en/model_doc/superglue.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/superglue"
+    },
+    {
+      "path": "docs/source/en/model_doc/superpoint.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/superpoint"
+    },
+    {
+      "path": "docs/source/en/model_doc/swiftformer.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/swiftformer"
+    },
+    {
+      "path": "docs/source/en/model_doc/swin.md",
+      "status": "outdated",
+      "last_commit_date": "2025-09-22",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/swin"
+    },
+    {
+      "path": "docs/source/en/model_doc/swin2sr.md",
+      "status": "outdated",
+      "last_commit_date": "2025-06-13",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/swin2sr"
+    },
+    {
+      "path": "docs/source/en/model_doc/swinv2.md",
+      "status": "outdated",
+      "last_commit_date": "2025-06-13",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/swinv2"
+    },
+    {
+      "path": "docs/source/en/model_doc/switch_transformers.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/switch_transformers"
+    },
+    {
+      "path": "docs/source/en/model_doc/t5.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/t5"
+    },
+    {
+      "path": "docs/source/en/model_doc/t5gemma.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/t5gemma"
+    },
+    {
+      "path": "docs/source/en/model_doc/t5gemma2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/t5gemma2"
+    },
+    {
+      "path": "docs/source/en/model_doc/t5v1.1.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/t5v1.1"
+    },
+    {
+      "path": "docs/source/en/model_doc/table-transformer.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/table-transformer"
+    },
+    {
+      "path": "docs/source/en/model_doc/tapas.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/tapas"
+    },
+    {
+      "path": "docs/source/en/model_doc/textnet.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/textnet"
+    },
+    {
+      "path": "docs/source/en/model_doc/time_series_transformer.md",
+      "status": "outdated",
+      "last_commit_date": "2024-10-09",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/time_series_transformer"
+    },
+    {
+      "path": "docs/source/en/model_doc/timesfm.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/timesfm"
+    },
+    {
+      "path": "docs/source/en/model_doc/timesformer.md",
+      "status": "outdated",
+      "last_commit_date": "2025-06-13",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/timesformer"
+    },
+    {
+      "path": "docs/source/en/model_doc/timm_wrapper.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/timm_wrapper"
+    },
+    {
+      "path": "docs/source/en/model_doc/trocr.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/trocr"
+    },
+    {
+      "path": "docs/source/en/model_doc/tvp.md",
+      "status": "outdated",
+      "last_commit_date": "2025-07-29",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/tvp"
+    },
+    {
+      "path": "docs/source/en/model_doc/udop.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/udop"
+    },
+    {
+      "path": "docs/source/en/model_doc/ul2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/ul2"
+    },
+    {
+      "path": "docs/source/en/model_doc/umt5.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/umt5"
+    },
+    {
+      "path": "docs/source/en/model_doc/unispeech-sat.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/unispeech-sat"
+    },
+    {
+      "path": "docs/source/en/model_doc/unispeech.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/unispeech"
+    },
+    {
+      "path": "docs/source/en/model_doc/univnet.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/univnet"
+    },
+    {
+      "path": "docs/source/en/model_doc/upernet.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/upernet"
+    },
+    {
+      "path": "docs/source/en/model_doc/vaultgemma.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/vaultgemma"
+    },
+    {
+      "path": "docs/source/en/model_doc/vibevoice_acoustic_tokenizer.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/vibevoice_acoustic_tokenizer"
+    },
+    {
+      "path": "docs/source/en/model_doc/video_llama_3.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/video_llama_3"
+    },
+    {
+      "path": "docs/source/en/model_doc/video_llava.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/video_llava"
+    },
+    {
+      "path": "docs/source/en/model_doc/videomae.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/videomae"
+    },
+    {
+      "path": "docs/source/en/model_doc/vilt.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/vilt"
+    },
+    {
+      "path": "docs/source/en/model_doc/vipllava.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/vipllava"
+    },
+    {
+      "path": "docs/source/en/model_doc/vision-encoder-decoder.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/vision-encoder-decoder"
+    },
+    {
+      "path": "docs/source/en/model_doc/vision-text-dual-encoder.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/vision-text-dual-encoder"
+    },
+    {
+      "path": "docs/source/en/model_doc/visual_bert.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/visual_bert"
+    },
+    {
+      "path": "docs/source/en/model_doc/vit_mae.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/vit_mae"
+    },
+    {
+      "path": "docs/source/en/model_doc/vit_msn.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/vit_msn"
+    },
+    {
+      "path": "docs/source/en/model_doc/vitdet.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/vitdet"
+    },
+    {
+      "path": "docs/source/en/model_doc/vitmatte.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/vitmatte"
+    },
+    {
+      "path": "docs/source/en/model_doc/vitpose.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/vitpose"
+    },
+    {
+      "path": "docs/source/en/model_doc/vits.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/vits"
+    },
+    {
+      "path": "docs/source/en/model_doc/vivit.md",
+      "status": "outdated",
+      "last_commit_date": "2025-06-13",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/vivit"
+    },
+    {
+      "path": "docs/source/en/model_doc/vjepa2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/vjepa2"
+    },
+    {
+      "path": "docs/source/en/model_doc/voxtral.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/voxtral"
+    },
+    {
+      "path": "docs/source/en/model_doc/voxtral_realtime.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/voxtral_realtime"
+    },
+    {
+      "path": "docs/source/en/model_doc/wav2vec2-bert.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/wav2vec2-bert"
+    },
+    {
+      "path": "docs/source/en/model_doc/wav2vec2-conformer.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/wav2vec2-conformer"
+    },
+    {
+      "path": "docs/source/en/model_doc/wav2vec2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/wav2vec2"
+    },
+    {
+      "path": "docs/source/en/model_doc/wav2vec2_phoneme.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/wav2vec2_phoneme"
+    },
+    {
+      "path": "docs/source/en/model_doc/wavlm.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/wavlm"
+    },
+    {
+      "path": "docs/source/en/model_doc/xclip.md",
+      "status": "outdated",
+      "last_commit_date": "2025-10-09",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/xclip"
+    },
+    {
+      "path": "docs/source/en/model_doc/xcodec.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/xcodec"
+    },
+    {
+      "path": "docs/source/en/model_doc/xglm.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/xglm"
+    },
+    {
+      "path": "docs/source/en/model_doc/xlm-roberta-xl.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/xlm-roberta-xl"
+    },
+    {
+      "path": "docs/source/en/model_doc/xlm-roberta.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/xlm-roberta"
+    },
+    {
+      "path": "docs/source/en/model_doc/xlm-v.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/xlm-v"
+    },
+    {
+      "path": "docs/source/en/model_doc/xlm.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/xlm"
+    },
+    {
+      "path": "docs/source/en/model_doc/xlnet.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/xlnet"
+    },
+    {
+      "path": "docs/source/en/model_doc/xls_r.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/xls_r"
+    },
+    {
+      "path": "docs/source/en/model_doc/xlsr_wav2vec2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/xlsr_wav2vec2"
+    },
+    {
+      "path": "docs/source/en/model_doc/xlstm.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/xlstm"
+    },
+    {
+      "path": "docs/source/en/model_doc/xmod.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/xmod"
+    },
+    {
+      "path": "docs/source/en/model_doc/yolos.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/yolos"
+    },
+    {
+      "path": "docs/source/en/model_doc/yoso.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/yoso"
+    },
+    {
+      "path": "docs/source/en/model_doc/youtu.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/youtu"
+    },
+    {
+      "path": "docs/source/en/model_doc/zamba.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/zamba"
+    },
+    {
+      "path": "docs/source/en/model_doc/zamba2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/zamba2"
+    },
+    {
+      "path": "docs/source/en/model_doc/zoedepth.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/zoedepth"
+    },
+    {
+      "path": "docs/source/en/model_memory_anatomy.md",
+      "status": "outdated",
+      "last_commit_date": "2025-06-13",
+      "source_url": "https://huggingface.co/docs/transformers/model_memory_anatomy"
+    },
+    {
+      "path": "docs/source/en/models.md",
+      "status": "outdated",
+      "last_commit_date": "2025-10-15",
+      "source_url": "https://huggingface.co/docs/transformers/models"
+    },
+    {
+      "path": "docs/source/en/models_timeline.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/models_timeline"
+    },
+    {
+      "path": "docs/source/en/modular_transformers.md",
+      "status": "outdated",
+      "last_commit_date": "2024-10-08",
+      "source_url": "https://huggingface.co/docs/transformers/modular_transformers"
+    },
+    {
+      "path": "docs/source/en/notebooks.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/notebooks"
+    },
+    {
+      "path": "docs/source/en/optimization_overview.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/optimization_overview"
+    },
+    {
+      "path": "docs/source/en/peft.md",
+      "status": "outdated",
+      "last_commit_date": "2025-06-13",
+      "source_url": "https://huggingface.co/docs/transformers/peft"
+    },
+    {
+      "path": "docs/source/en/perf_hardware.md",
+      "status": "outdated",
+      "last_commit_date": "2024-02-16",
+      "source_url": "https://huggingface.co/docs/transformers/perf_hardware"
+    },
+    {
+      "path": "docs/source/en/perf_torch_compile.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/perf_torch_compile"
+    },
+    {
+      "path": "docs/source/en/perf_train_cpu.md",
+      "status": "outdated",
+      "last_commit_date": "2024-02-16",
+      "source_url": "https://huggingface.co/docs/transformers/perf_train_cpu"
+    },
+    {
+      "path": "docs/source/en/perf_train_cpu_many.md",
+      "status": "outdated",
+      "last_commit_date": "2024-02-16",
+      "source_url": "https://huggingface.co/docs/transformers/perf_train_cpu_many"
+    },
+    {
+      "path": "docs/source/en/perf_train_gaudi.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/perf_train_gaudi"
+    },
+    {
+      "path": "docs/source/en/perf_train_gpu_one.md",
+      "status": "outdated",
+      "last_commit_date": "2025-07-29",
+      "source_url": "https://huggingface.co/docs/transformers/perf_train_gpu_one"
+    },
+    {
+      "path": "docs/source/en/perplexity.md",
+      "status": "outdated",
+      "last_commit_date": "2024-02-16",
+      "source_url": "https://huggingface.co/docs/transformers/perplexity"
+    },
+    {
+      "path": "docs/source/en/philosophy.md",
+      "status": "outdated",
+      "last_commit_date": "2023-11-06",
+      "source_url": "https://huggingface.co/docs/transformers/philosophy"
+    },
+    {
+      "path": "docs/source/en/pipeline_gradio.md",
+      "status": "outdated",
+      "last_commit_date": "2025-07-29",
+      "source_url": "https://huggingface.co/docs/transformers/pipeline_gradio"
+    },
+    {
+      "path": "docs/source/en/pipeline_tutorial.md",
+      "status": "outdated",
+      "last_commit_date": "2024-02-16",
+      "source_url": "https://huggingface.co/docs/transformers/pipeline_tutorial"
+    },
+    {
+      "path": "docs/source/en/pipeline_webserver.md",
+      "status": "outdated",
+      "last_commit_date": "2024-02-16",
+      "source_url": "https://huggingface.co/docs/transformers/pipeline_webserver"
+    },
+    {
+      "path": "docs/source/en/processors.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/processors"
+    },
+    {
+      "path": "docs/source/en/quantization/aqlm.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/quantization/aqlm"
+    },
+    {
+      "path": "docs/source/en/quantization/auto_round.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/quantization/auto_round"
+    },
+    {
+      "path": "docs/source/en/quantization/awq.md",
+      "status": "outdated",
+      "last_commit_date": "2025-08-22",
+      "source_url": "https://huggingface.co/docs/transformers/quantization/awq"
+    },
+    {
+      "path": "docs/source/en/quantization/bitnet.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/quantization/bitnet"
+    },
+    {
+      "path": "docs/source/en/quantization/bitsandbytes.md",
+      "status": "outdated",
+      "last_commit_date": "2025-08-22",
+      "source_url": "https://huggingface.co/docs/transformers/quantization/bitsandbytes"
+    },
+    {
+      "path": "docs/source/en/quantization/compressed_tensors.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/quantization/compressed_tensors"
+    },
+    {
+      "path": "docs/source/en/quantization/concept_guide.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/quantization/concept_guide"
+    },
+    {
+      "path": "docs/source/en/quantization/contribute.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/quantization/contribute"
+    },
+    {
+      "path": "docs/source/en/quantization/eetq.md",
+      "status": "outdated",
+      "last_commit_date": "2024-08-08",
+      "source_url": "https://huggingface.co/docs/transformers/quantization/eetq"
+    },
+    {
+      "path": "docs/source/en/quantization/fbgemm_fp8.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/quantization/fbgemm_fp8"
+    },
+    {
+      "path": "docs/source/en/quantization/finegrained_fp8.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/quantization/finegrained_fp8"
+    },
+    {
+      "path": "docs/source/en/quantization/fp_quant.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/quantization/fp_quant"
+    },
+    {
+      "path": "docs/source/en/quantization/gptq.md",
+      "status": "outdated",
+      "last_commit_date": "2025-12-10",
+      "source_url": "https://huggingface.co/docs/transformers/quantization/gptq"
+    },
+    {
+      "path": "docs/source/en/quantization/higgs.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/quantization/higgs"
+    },
+    {
+      "path": "docs/source/en/quantization/hqq.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/quantization/hqq"
+    },
+    {
+      "path": "docs/source/en/quantization/mxfp4.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/quantization/mxfp4"
+    },
+    {
+      "path": "docs/source/en/quantization/optimum.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/quantization/optimum"
+    },
+    {
+      "path": "docs/source/en/quantization/overview.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/quantization/overview"
+    },
+    {
+      "path": "docs/source/en/quantization/quanto.md",
+      "status": "outdated",
+      "last_commit_date": "2024-08-07",
+      "source_url": "https://huggingface.co/docs/transformers/quantization/quanto"
+    },
+    {
+      "path": "docs/source/en/quantization/quark.md",
+      "status": "outdated",
+      "last_commit_date": "2025-07-09",
+      "source_url": "https://huggingface.co/docs/transformers/quantization/quark"
+    },
+    {
+      "path": "docs/source/en/quantization/selecting.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/quantization/selecting"
+    },
+    {
+      "path": "docs/source/en/quantization/sinq.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/quantization/sinq"
+    },
+    {
+      "path": "docs/source/en/quantization/spqr.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/quantization/spqr"
+    },
+    {
+      "path": "docs/source/en/quantization/torchao.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/quantization/torchao"
+    },
+    {
+      "path": "docs/source/en/quantization/vptq.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/quantization/vptq"
+    },
+    {
+      "path": "docs/source/en/quicktour.md",
+      "status": "outdated",
+      "last_commit_date": "2025-09-22",
+      "source_url": "https://huggingface.co/docs/transformers/quicktour"
+    },
+    {
+      "path": "docs/source/en/reference/environment_variables.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/reference/environment_variables"
+    },
+    {
+      "path": "docs/source/en/run_scripts.md",
+      "status": "outdated",
+      "last_commit_date": "2025-10-09",
+      "source_url": "https://huggingface.co/docs/transformers/run_scripts"
+    },
+    {
+      "path": "docs/source/en/serialization.md",
+      "status": "outdated",
+      "last_commit_date": "2025-10-21",
+      "source_url": "https://huggingface.co/docs/transformers/serialization"
+    },
+    {
+      "path": "docs/source/en/serve-cli/cursor.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/serve-cli/cursor"
+    },
+    {
+      "path": "docs/source/en/serve-cli/jan.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/serve-cli/jan"
+    },
+    {
+      "path": "docs/source/en/serve-cli/openweb_ui.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/serve-cli/openweb_ui"
+    },
+    {
+      "path": "docs/source/en/serve-cli/serving.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/serve-cli/serving"
+    },
+    {
+      "path": "docs/source/en/serve-cli/serving_optims.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/serve-cli/serving_optims"
+    },
+    {
+      "path": "docs/source/en/serve-cli/tiny_agents.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/serve-cli/tiny_agents"
+    },
+    {
+      "path": "docs/source/en/tasks/any_to_any.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/tasks/any_to_any"
+    },
+    {
+      "path": "docs/source/en/tasks/audio_classification.md",
+      "status": "outdated",
+      "last_commit_date": "2025-10-23",
+      "source_url": "https://huggingface.co/docs/transformers/tasks/audio_classification"
+    },
+    {
+      "path": "docs/source/en/tasks/audio_text_to_text.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/tasks/audio_text_to_text"
+    },
+    {
+      "path": "docs/source/en/tasks/document_question_answering.md",
+      "status": "outdated",
+      "last_commit_date": "2024-10-02",
+      "source_url": "https://huggingface.co/docs/transformers/tasks/document_question_answering"
+    },
+    {
+      "path": "docs/source/en/tasks/idefics.md",
+      "status": "outdated",
+      "last_commit_date": "2025-08-22",
+      "source_url": "https://huggingface.co/docs/transformers/tasks/idefics"
+    },
+    {
+      "path": "docs/source/en/tasks/image_captioning.md",
+      "status": "outdated",
+      "last_commit_date": "2024-04-18",
+      "source_url": "https://huggingface.co/docs/transformers/tasks/image_captioning"
+    },
+    {
+      "path": "docs/source/en/tasks/image_classification.md",
+      "status": "outdated",
+      "last_commit_date": "2025-12-01",
+      "source_url": "https://huggingface.co/docs/transformers/tasks/image_classification"
+    },
+    {
+      "path": "docs/source/en/tasks/image_feature_extraction.md",
+      "status": "outdated",
+      "last_commit_date": "2025-08-19",
+      "source_url": "https://huggingface.co/docs/transformers/tasks/image_feature_extraction"
+    },
+    {
+      "path": "docs/source/en/tasks/image_text_to_text.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/tasks/image_text_to_text"
+    },
+    {
+      "path": "docs/source/en/tasks/image_to_image.md",
+      "status": "outdated",
+      "last_commit_date": "2024-08-06",
+      "source_url": "https://huggingface.co/docs/transformers/tasks/image_to_image"
+    },
+    {
+      "path": "docs/source/en/tasks/keypoint_detection.md",
+      "status": "outdated",
+      "last_commit_date": "2025-04-25",
+      "source_url": "https://huggingface.co/docs/transformers/tasks/keypoint_detection"
+    },
+    {
+      "path": "docs/source/en/tasks/keypoint_matching.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/tasks/keypoint_matching"
+    },
+    {
+      "path": "docs/source/en/tasks/knowledge_distillation_for_image_classification.md",
+      "status": "outdated",
+      "last_commit_date": "2025-10-09",
+      "source_url": "https://huggingface.co/docs/transformers/tasks/knowledge_distillation_for_image_classification"
+    },
+    {
+      "path": "docs/source/en/tasks/language_modeling.md",
+      "status": "outdated",
+      "last_commit_date": "2025-09-22",
+      "source_url": "https://huggingface.co/docs/transformers/tasks/language_modeling"
+    },
+    {
+      "path": "docs/source/en/tasks/mask_generation.md",
+      "status": "outdated",
+      "last_commit_date": "2024-08-06",
+      "source_url": "https://huggingface.co/docs/transformers/tasks/mask_generation"
+    },
+    {
+      "path": "docs/source/en/tasks/masked_language_modeling.md",
+      "status": "outdated",
+      "last_commit_date": "2025-09-22",
+      "source_url": "https://huggingface.co/docs/transformers/tasks/masked_language_modeling"
+    },
+    {
+      "path": "docs/source/en/tasks/monocular_depth_estimation.md",
+      "status": "outdated",
+      "last_commit_date": "2024-04-24",
+      "source_url": "https://huggingface.co/docs/transformers/tasks/monocular_depth_estimation"
+    },
+    {
+      "path": "docs/source/en/tasks/multiple_choice.md",
+      "status": "outdated",
+      "last_commit_date": "2025-09-22",
+      "source_url": "https://huggingface.co/docs/transformers/tasks/multiple_choice"
+    },
+    {
+      "path": "docs/source/en/tasks/object_detection.md",
+      "status": "outdated",
+      "last_commit_date": "2025-06-17",
+      "source_url": "https://huggingface.co/docs/transformers/tasks/object_detection"
+    },
+    {
+      "path": "docs/source/en/tasks/prompting.md",
+      "status": "outdated",
+      "last_commit_date": "2025-08-22",
+      "source_url": "https://huggingface.co/docs/transformers/tasks/prompting"
+    },
+    {
+      "path": "docs/source/en/tasks/semantic_segmentation.md",
+      "status": "outdated",
+      "last_commit_date": "2025-09-22",
+      "source_url": "https://huggingface.co/docs/transformers/tasks/semantic_segmentation"
+    },
+    {
+      "path": "docs/source/en/tasks/summarization.md",
+      "status": "outdated",
+      "last_commit_date": "2025-09-22",
+      "source_url": "https://huggingface.co/docs/transformers/tasks/summarization"
+    },
+    {
+      "path": "docs/source/en/tasks/text-to-speech.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/tasks/text-to-speech"
+    },
+    {
+      "path": "docs/source/en/tasks/token_classification.md",
+      "status": "outdated",
+      "last_commit_date": "2025-09-22",
+      "source_url": "https://huggingface.co/docs/transformers/tasks/token_classification"
+    },
+    {
+      "path": "docs/source/en/tasks/training_vision_backbone.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/tasks/training_vision_backbone"
+    },
+    {
+      "path": "docs/source/en/tasks/translation.md",
+      "status": "outdated",
+      "last_commit_date": "2025-09-22",
+      "source_url": "https://huggingface.co/docs/transformers/tasks/translation"
+    },
+    {
+      "path": "docs/source/en/tasks/video_text_to_text.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/tasks/video_text_to_text"
+    },
+    {
+      "path": "docs/source/en/tasks/visual_document_retrieval.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/tasks/visual_document_retrieval"
+    },
+    {
+      "path": "docs/source/en/tasks/visual_question_answering.md",
+      "status": "outdated",
+      "last_commit_date": "2025-08-22",
+      "source_url": "https://huggingface.co/docs/transformers/tasks/visual_question_answering"
+    },
+    {
+      "path": "docs/source/en/tasks/zero_shot_image_classification.md",
+      "status": "outdated",
+      "last_commit_date": "2023-06-20",
+      "source_url": "https://huggingface.co/docs/transformers/tasks/zero_shot_image_classification"
+    },
+    {
+      "path": "docs/source/en/tasks/zero_shot_object_detection.md",
+      "status": "outdated",
+      "last_commit_date": "2023-06-20",
+      "source_url": "https://huggingface.co/docs/transformers/tasks/zero_shot_object_detection"
+    },
+    {
+      "path": "docs/source/en/testing.md",
+      "status": "outdated",
+      "last_commit_date": "2025-06-25",
+      "source_url": "https://huggingface.co/docs/transformers/testing"
+    },
+    {
+      "path": "docs/source/en/tokenizer_summary.md",
+      "status": "outdated",
+      "last_commit_date": "2025-06-13",
+      "source_url": "https://huggingface.co/docs/transformers/tokenizer_summary"
+    },
+    {
+      "path": "docs/source/en/trainer.md",
+      "status": "outdated",
+      "last_commit_date": "2025-10-09",
+      "source_url": "https://huggingface.co/docs/transformers/trainer"
+    },
+    {
+      "path": "docs/source/en/troubleshooting.md",
+      "status": "outdated",
+      "last_commit_date": "2024-02-16",
+      "source_url": "https://huggingface.co/docs/transformers/troubleshooting"
+    },
+    {
+      "path": "docs/source/en/video_processors.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/video_processors"
+    },
+    {
+      "path": "docs/source/en/weightconverter.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/weightconverter"
+    }
+  ]
 }
