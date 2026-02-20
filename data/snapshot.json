@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T02:33:42Z",
+  "generated_at": "2026-02-20T02:29:37Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -1340,6 +1340,18 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/model_doc/hiera"
+    },
+    {
+      "path": "docs/source/en/model_doc/higgs_audio_v2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/higgs_audio_v2"
+    },
+    {
+      "path": "docs/source/en/model_doc/higgs_audio_v2_tokenizer.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/higgs_audio_v2_tokenizer"
     },
     {
       "path": "docs/source/en/model_doc/hubert.md",
