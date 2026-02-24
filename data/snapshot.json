@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-23T02:38:06Z",
+  "generated_at": "2026-02-24T02:31:51Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -668,6 +668,12 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/model_doc/cohere2_vision"
+    },
+    {
+      "path": "docs/source/en/model_doc/colmodernvbert.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/colmodernvbert"
     },
     {
       "path": "docs/source/en/model_doc/colpali.md",
@@ -1814,6 +1820,12 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/model_doc/modernbert"
+    },
+    {
+      "path": "docs/source/en/model_doc/modernvbert.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/modernvbert"
     },
     {
       "path": "docs/source/en/model_doc/moonshine.md",
