@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-26T02:28:22Z",
+  "generated_at": "2026-02-27T02:27:26Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -1952,6 +1952,12 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/model_doc/olmo3"
+    },
+    {
+      "path": "docs/source/en/model_doc/olmo_hybrid.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/olmo_hybrid"
     },
     {
       "path": "docs/source/en/model_doc/olmoe.md",
