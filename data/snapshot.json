@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-27T02:27:26Z",
+  "generated_at": "2026-02-28T02:10:28Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -2152,6 +2152,12 @@
       "source_url": "https://huggingface.co/docs/transformers/model_doc/pop2piano"
     },
     {
+      "path": "docs/source/en/model_doc/pp_doclayout_v2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/pp_doclayout_v2"
+    },
+    {
       "path": "docs/source/en/model_doc/pp_doclayout_v3.md",
       "status": "missing",
       "last_commit_date": null,
@@ -2594,6 +2600,12 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/model_doc/timesfm"
+    },
+    {
+      "path": "docs/source/en/model_doc/timesfm2_5.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/timesfm2_5"
     },
     {
       "path": "docs/source/en/model_doc/timesformer.md",
@@ -3134,6 +3146,12 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/quantization/hqq"
+    },
+    {
+      "path": "docs/source/en/quantization/metal.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/quantization/metal"
     },
     {
       "path": "docs/source/en/quantization/mxfp4.md",
