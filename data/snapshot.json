@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-02T02:29:24Z",
+  "generated_at": "2026-03-03T02:33:31Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -2686,6 +2686,12 @@
       "source_url": "https://huggingface.co/docs/transformers/model_doc/vibevoice_acoustic_tokenizer"
     },
     {
+      "path": "docs/source/en/model_doc/vibevoice_asr.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/vibevoice_asr"
+    },
+    {
       "path": "docs/source/en/model_doc/video_llama_3.md",
       "status": "missing",
       "last_commit_date": null,
@@ -2954,6 +2960,12 @@
       "status": "outdated",
       "last_commit_date": "2024-10-08",
       "source_url": "https://huggingface.co/docs/transformers/modular_transformers"
+    },
+    {
+      "path": "docs/source/en/monkey_patching.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/monkey_patching"
     },
     {
       "path": "docs/source/en/notebooks.md",
