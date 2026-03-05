@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-04T02:26:02Z",
+  "generated_at": "2026-03-05T02:30:04Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -1016,6 +1016,12 @@
       "status": "outdated",
       "last_commit_date": "2025-09-22",
       "source_url": "https://huggingface.co/docs/transformers/model_doc/esm"
+    },
+    {
+      "path": "docs/source/en/model_doc/eurobert.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/eurobert"
     },
     {
       "path": "docs/source/en/model_doc/evolla.md",
