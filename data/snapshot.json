@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-09T02:35:12Z",
+  "generated_at": "2026-03-10T02:24:59Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -538,10 +538,22 @@
       "source_url": "https://huggingface.co/docs/transformers/model_doc/bert-japanese"
     },
     {
+      "path": "docs/source/en/model_doc/bert.md",
+      "status": "outdated",
+      "last_commit_date": "2025-11-28",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/bert"
+    },
+    {
       "path": "docs/source/en/model_doc/bertweet.md",
       "status": "outdated",
       "last_commit_date": "2024-10-08",
       "source_url": "https://huggingface.co/docs/transformers/model_doc/bertweet"
+    },
+    {
+      "path": "docs/source/en/model_doc/big_bird.md",
+      "status": "outdated",
+      "last_commit_date": "2025-11-28",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/big_bird"
     },
     {
       "path": "docs/source/en/model_doc/bigbird_pegasus.md",
@@ -784,6 +796,18 @@
       "source_url": "https://huggingface.co/docs/transformers/model_doc/data2vec"
     },
     {
+      "path": "docs/source/en/model_doc/deberta-v2.md",
+      "status": "outdated",
+      "last_commit_date": "2025-11-28",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/deberta-v2"
+    },
+    {
+      "path": "docs/source/en/model_doc/deberta.md",
+      "status": "outdated",
+      "last_commit_date": "2025-11-28",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/deberta"
+    },
+    {
       "path": "docs/source/en/model_doc/decision_transformer.md",
       "status": "missing",
       "last_commit_date": null,
@@ -964,6 +988,12 @@
       "source_url": "https://huggingface.co/docs/transformers/model_doc/efficientnet"
     },
     {
+      "path": "docs/source/en/model_doc/electra.md",
+      "status": "outdated",
+      "last_commit_date": "2025-09-22",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/electra"
+    },
+    {
       "path": "docs/source/en/model_doc/emu3.md",
       "status": "missing",
       "last_commit_date": null,
@@ -974,6 +1004,12 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/model_doc/encodec"
+    },
+    {
+      "path": "docs/source/en/model_doc/encoder-decoder.md",
+      "status": "outdated",
+      "last_commit_date": "2025-09-22",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/encoder-decoder"
     },
     {
       "path": "docs/source/en/model_doc/eomt.md",
@@ -1156,18 +1192,6 @@
       "source_url": "https://huggingface.co/docs/transformers/model_doc/gemma2"
     },
     {
-      "path": "docs/source/en/model_doc/gemma3.md",
-      "status": "outdated",
-      "last_commit_date": "2025-08-22",
-      "source_url": "https://huggingface.co/docs/transformers/model_doc/gemma3"
-    },
-    {
-      "path": "docs/source/en/model_doc/gemma3n.md",
-      "status": "outdated",
-      "last_commit_date": "2025-10-17",
-      "source_url": "https://huggingface.co/docs/transformers/model_doc/gemma3n"
-    },
-    {
       "path": "docs/source/en/model_doc/git.md",
       "status": "missing",
       "last_commit_date": null,
@@ -1256,12 +1280,6 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/model_doc/gpt-sw3"
-    },
-    {
-      "path": "docs/source/en/model_doc/gpt2.md",
-      "status": "outdated",
-      "last_commit_date": "2025-09-22",
-      "source_url": "https://huggingface.co/docs/transformers/model_doc/gpt2"
     },
     {
       "path": "docs/source/en/model_doc/gpt_bigcode.md",
@@ -1468,12 +1486,6 @@
       "source_url": "https://huggingface.co/docs/transformers/model_doc/jais2"
     },
     {
-      "path": "docs/source/en/model_doc/jamba.md",
-      "status": "outdated",
-      "last_commit_date": "2025-08-22",
-      "source_url": "https://huggingface.co/docs/transformers/model_doc/jamba"
-    },
-    {
       "path": "docs/source/en/model_doc/janus.md",
       "status": "missing",
       "last_commit_date": null,
@@ -1574,6 +1586,12 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/model_doc/lilt"
+    },
+    {
+      "path": "docs/source/en/model_doc/llama.md",
+      "status": "outdated",
+      "last_commit_date": "2025-11-28",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/llama"
     },
     {
       "path": "docs/source/en/model_doc/llama3.md",
@@ -2330,6 +2348,12 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/model_doc/roberta-prelayernorm"
+    },
+    {
+      "path": "docs/source/en/model_doc/roberta.md",
+      "status": "outdated",
+      "last_commit_date": "2025-11-28",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/roberta"
     },
     {
       "path": "docs/source/en/model_doc/roc_bert.md",
@@ -3250,12 +3274,6 @@
       "source_url": "https://huggingface.co/docs/transformers/quantization/vptq"
     },
     {
-      "path": "docs/source/en/quicktour.md",
-      "status": "outdated",
-      "last_commit_date": "2025-09-22",
-      "source_url": "https://huggingface.co/docs/transformers/quicktour"
-    },
-    {
       "path": "docs/source/en/reference/environment_variables.md",
       "status": "missing",
       "last_commit_date": null,
@@ -3418,12 +3436,6 @@
       "source_url": "https://huggingface.co/docs/transformers/tasks/object_detection"
     },
     {
-      "path": "docs/source/en/tasks/prompting.md",
-      "status": "outdated",
-      "last_commit_date": "2025-08-22",
-      "source_url": "https://huggingface.co/docs/transformers/tasks/prompting"
-    },
-    {
       "path": "docs/source/en/tasks/question_answering.md",
       "status": "outdated",
       "last_commit_date": "2025-09-22",
@@ -3458,12 +3470,6 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/tasks/training_vision_backbone"
-    },
-    {
-      "path": "docs/source/en/tasks/translation.md",
-      "status": "outdated",
-      "last_commit_date": "2025-09-22",
-      "source_url": "https://huggingface.co/docs/transformers/tasks/translation"
     },
     {
       "path": "docs/source/en/tasks/video_text_to_text.md",
