@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-11T02:24:31Z",
+  "generated_at": "2026-03-12T02:31:34Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -656,6 +656,12 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/model_doc/chinese_clip"
+    },
+    {
+      "path": "docs/source/en/model_doc/chmv2.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/chmv2"
     },
     {
       "path": "docs/source/en/model_doc/clap.md",
