@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-16T02:46:23Z",
+  "generated_at": "2026-03-17T02:30:16Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -1792,6 +1792,12 @@
       "source_url": "https://huggingface.co/docs/transformers/model_doc/mistral3"
     },
     {
+      "path": "docs/source/en/model_doc/mistral4.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/mistral4"
+    },
+    {
       "path": "docs/source/en/model_doc/mixtral.md",
       "status": "missing",
       "last_commit_date": null,
@@ -2162,6 +2168,12 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/model_doc/phobert"
+    },
+    {
+      "path": "docs/source/en/model_doc/pi0.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/pi0"
     },
     {
       "path": "docs/source/en/model_doc/pix2struct.md",
