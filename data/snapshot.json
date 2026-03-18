@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-17T02:30:16Z",
+  "generated_at": "2026-03-18T02:36:54Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -3476,12 +3476,6 @@
       "status": "outdated",
       "last_commit_date": "2025-06-17",
       "source_url": "https://huggingface.co/docs/transformers/tasks/object_detection"
-    },
-    {
-      "path": "docs/source/en/tasks/question_answering.md",
-      "status": "outdated",
-      "last_commit_date": "2025-09-22",
-      "source_url": "https://huggingface.co/docs/transformers/tasks/question_answering"
     },
     {
       "path": "docs/source/en/tasks/semantic_segmentation.md",
