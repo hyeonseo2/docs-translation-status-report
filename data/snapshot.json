@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-18T02:36:54Z",
+  "generated_at": "2026-03-19T02:39:18Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -476,6 +476,12 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/model_doc/audioflamingo3"
+    },
+    {
+      "path": "docs/source/en/model_doc/auto.md",
+      "status": "outdated",
+      "last_commit_date": "2026-01-13",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/auto"
     },
     {
       "path": "docs/source/en/model_doc/autoformer.md",
@@ -1504,6 +1510,12 @@
       "source_url": "https://huggingface.co/docs/transformers/model_doc/jetmoe"
     },
     {
+      "path": "docs/source/en/model_doc/jina_embeddings_v3.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/jina_embeddings_v3"
+    },
+    {
       "path": "docs/source/en/model_doc/kosmos-2.md",
       "status": "missing",
       "last_commit_date": null,
@@ -2242,10 +2254,22 @@
       "source_url": "https://huggingface.co/docs/transformers/model_doc/pp_ocrv5_mobile_det"
     },
     {
+      "path": "docs/source/en/model_doc/pp_ocrv5_mobile_rec.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/pp_ocrv5_mobile_rec"
+    },
+    {
       "path": "docs/source/en/model_doc/pp_ocrv5_server_det.md",
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/model_doc/pp_ocrv5_server_det"
+    },
+    {
+      "path": "docs/source/en/model_doc/pp_ocrv5_server_rec.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/pp_ocrv5_server_rec"
     },
     {
       "path": "docs/source/en/model_doc/prompt_depth_anything.md",
