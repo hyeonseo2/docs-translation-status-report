@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-19T02:39:18Z",
+  "generated_at": "2026-03-20T02:29:26Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -14,6 +14,12 @@
       "status": "outdated",
       "last_commit_date": "2025-07-29",
       "source_url": "https://huggingface.co/docs/transformers/accelerator_selection"
+    },
+    {
+      "path": "docs/source/en/add_new_model.md",
+      "status": "outdated",
+      "last_commit_date": "2026-01-08",
+      "source_url": "https://huggingface.co/docs/transformers/add_new_model"
     },
     {
       "path": "docs/source/en/add_new_pipeline.md",
@@ -44,12 +50,6 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/backbones"
-    },
-    {
-      "path": "docs/source/en/cache_explanation.md",
-      "status": "outdated",
-      "last_commit_date": "2025-10-08",
-      "source_url": "https://huggingface.co/docs/transformers/cache_explanation"
     },
     {
       "path": "docs/source/en/chat_content_patterns.md",
@@ -266,6 +266,12 @@
       "status": "outdated",
       "last_commit_date": "2025-07-29",
       "source_url": "https://huggingface.co/docs/transformers/how_to_hack_models"
+    },
+    {
+      "path": "docs/source/en/image_processors.md",
+      "status": "outdated",
+      "last_commit_date": "2025-12-01",
+      "source_url": "https://huggingface.co/docs/transformers/image_processors"
     },
     {
       "path": "docs/source/en/index.md",
@@ -1204,6 +1210,12 @@
       "source_url": "https://huggingface.co/docs/transformers/model_doc/gemma2"
     },
     {
+      "path": "docs/source/en/model_doc/gemma3.md",
+      "status": "outdated",
+      "last_commit_date": "2026-03-09",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/gemma3"
+    },
+    {
       "path": "docs/source/en/model_doc/git.md",
       "status": "missing",
       "last_commit_date": null,
@@ -1616,6 +1628,12 @@
       "status": "outdated",
       "last_commit_date": "2025-08-22",
       "source_url": "https://huggingface.co/docs/transformers/model_doc/llama3"
+    },
+    {
+      "path": "docs/source/en/model_doc/llama4.md",
+      "status": "outdated",
+      "last_commit_date": "2026-01-23",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/llama4"
     },
     {
       "path": "docs/source/en/model_doc/llava.md",
@@ -2222,6 +2240,12 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/model_doc/pop2piano"
+    },
+    {
+      "path": "docs/source/en/model_doc/pp_chart2table.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/pp_chart2table"
     },
     {
       "path": "docs/source/en/model_doc/pp_doclayout_v2.md",
@@ -2854,6 +2878,12 @@
       "source_url": "https://huggingface.co/docs/transformers/model_doc/visual_bert"
     },
     {
+      "path": "docs/source/en/model_doc/vit.md",
+      "status": "outdated",
+      "last_commit_date": "2025-10-02",
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/vit"
+    },
+    {
       "path": "docs/source/en/model_doc/vit_mae.md",
       "status": "missing",
       "last_commit_date": null,
@@ -3098,6 +3128,12 @@
       "status": "outdated",
       "last_commit_date": "2025-10-23",
       "source_url": "https://huggingface.co/docs/transformers/optimizers"
+    },
+    {
+      "path": "docs/source/en/paged_attention.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/paged_attention"
     },
     {
       "path": "docs/source/en/peft.md",
