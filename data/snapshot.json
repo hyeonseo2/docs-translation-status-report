@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-24T02:30:11Z",
+  "generated_at": "2026-03-25T02:35:15Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -62,6 +62,12 @@
       "status": "outdated",
       "last_commit_date": "2025-10-16",
       "source_url": "https://huggingface.co/docs/transformers/chat_extras"
+    },
+    {
+      "path": "docs/source/en/chat_response_parsing.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/chat_response_parsing"
     },
     {
       "path": "docs/source/en/chat_templating.md",
