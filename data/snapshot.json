@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-25T02:35:15Z",
+  "generated_at": "2026-03-26T02:43:17Z",
   "project": "transformers",
   "language": "ko",
   "files": [
@@ -2870,6 +2870,12 @@
       "status": "missing",
       "last_commit_date": null,
       "source_url": "https://huggingface.co/docs/transformers/model_doc/videomae"
+    },
+    {
+      "path": "docs/source/en/model_doc/videomt.md",
+      "status": "missing",
+      "last_commit_date": null,
+      "source_url": "https://huggingface.co/docs/transformers/model_doc/videomt"
     },
     {
       "path": "docs/source/en/model_doc/vilt.md",
